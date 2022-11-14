@@ -243,3 +243,19 @@ Parameter | Description
 --------- | -----------
 ID | The ID of the kitten to delete
 
+
+# /HEALTHZ
+## ***GET*** 
+
+**Summary:** Healthz
+
+### HTTP Request 
+`***GET*** /healthz` 
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | Successful Response |
+
+
