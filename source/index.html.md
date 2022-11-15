@@ -114,19 +114,7 @@ Remember — a happy kitten is an authenticated kitten!
 
 ## Get a Specific Kitten
 
-```ruby
-require 'kittn'
 
-api = Kittn::APIClient.authorize!('meowmeowmeow')
-api.kittens.get(2)
-```
-
-```python
-import kittn
-
-api = kittn.authorize('meowmeowmeow')
-api.kittens.get(2)
-```
 
 ```shell
 curl "http://example.com/api/kittens/2" \
@@ -168,19 +156,6 @@ ID | The ID of the kitten to retrieve
 
 ## Delete a Specific Kitten
 
-```ruby
-require 'kittn'
-
-api = Kittn::APIClient.authorize!('meowmeowmeow')
-api.kittens.delete(2)
-```
-
-```python
-import kittn
-
-api = kittn.authorize('meowmeowmeow')
-api.kittens.delete(2)
-```
 
 ```shell
 curl "http://example.com/api/kittens/2" \
@@ -217,6 +192,8 @@ ID | The ID of the kitten to delete
 
 /master_data_lookup/xml/import_xml_file
 
+
+```json
 {
   "id": "//DataArea/MediShippingAddress/MediShippingAddressHeader/GeneralInfo/BusinessPartner",
   "Kundennummer": "//DataArea/MediShippingAddress/MediShippingAddressHeader/GeneralInfo/BusinessPartner",
@@ -226,6 +203,7 @@ ID | The ID of the kitten to delete
   "ORT": "//DataArea/MediShippingAddress/MediShippingAddressHeader/Address/CityName",
   "PLZ": "//DataArea/MediShippingAddress/MediShippingAddressHeader/Address/ZipCode"
 }
+```
 
 with the Name customer_address
 
