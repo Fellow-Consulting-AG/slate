@@ -38,7 +38,7 @@ This example API documentation page was created with [Slate](https://github.com/
 ```shell
 # With shell, you can just pass the correct header with each request
 curl "api_endpoint_here" \
-  -H "Authorization: meowmeowmeow"
+  -H "X-API-KEY: meowmeowmeow"
 ```
 
 
@@ -49,7 +49,7 @@ Polydocs uses API keys to allow access to the API. You find your  Polydocs API k
 
 Polydocs expects for the API key to be included in all API requests to the server in a header that looks like the following:
 
-`Authorization: meowmeowmeow`
+`X-API-KEY: meowmeowmeow`
 
 <aside class="notice">
 You must replace <code>meowmeowmeow</code> with your personal API key.
@@ -62,7 +62,7 @@ You must replace <code>meowmeowmeow</code> with your personal API key.
 
 ```shell
 curl "http://example.com/api/kittens" \
-  -H "Authorization: meowmeowmeow"
+  -H "X-API-KEY: meowmeowmeow"
 ```
 
 
@@ -111,7 +111,7 @@ Remember — a happy kitten is an authenticated kitten!
 
 ```shell
 curl "http://example.com/api/kittens/2" \
-  -H "Authorization: meowmeowmeow"
+  -H "X-API-KEY: meowmeowmeow"
 ```
 
 ```javascript
@@ -153,7 +153,7 @@ ID | The ID of the kitten to retrieve
 ```shell
 curl "http://example.com/api/kittens/2" \
   -X DELETE \
-  -H "Authorization: meowmeowmeow"
+  -H "X-API-KEY: meowmeowmeow"
 ```
 
 
