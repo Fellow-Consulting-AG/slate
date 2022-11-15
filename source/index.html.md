@@ -188,13 +188,13 @@ ID | The ID of the kitten to delete
 
 ```json
 {
-  "id": "//DataArea/MediShippingAddress/MediShippingAddressHeader/GeneralInfo/BusinessPartner",
-  "Kundennummer": "//DataArea/MediShippingAddress/MediShippingAddressHeader/GeneralInfo/BusinessPartner",
-  "Versandanschrift": "//DataArea/MediShippingAddress/MediShippingAddressHeader/GeneralInfo/ShippingAddressNumber",
-  "Kundenname": "//DataArea/MediShippingAddress/MediShippingAddressHeader/Address/Name1",
-  "Straße": "//DataArea/MediShippingAddress/MediShippingAddressHeader/Address/Street",
-  "ORT": "//DataArea/MediShippingAddress/MediShippingAddressHeader/Address/CityName",
-  "PLZ": "//DataArea/MediShippingAddress/MediShippingAddressHeader/Address/ZipCode"
+  "id": "//DataArea/ShippingAddress/ShippingAddressHeader/GeneralInfo/BusinessPartner",
+  "Kundennummer": "//DataArea/ShippingAddress/ShippingAddressHeader/GeneralInfo/BusinessPartner",
+  "Versandanschrift": "//DataArea/ShippingAddress/ShippingAddressHeader/GeneralInfo/ShippingAddressNumber",
+  "Kundenname": "//DataArea/ShippingAddress/ShippingAddressHeader/Address/Name1",
+  "Straße": "//DataArea/ShippingAddress/ShippingAddressHeader/Address/Street",
+  "ORT": "//DataArea/ShippingAddress/ShippingAddressHeader/Address/CityName",
+  "PLZ": "//DataArea/ShippingAddress/ShippingAddressHeader/Address/ZipCode"
 }
 ```
 
@@ -207,7 +207,7 @@ curl "https://api.polydocs.io/master_data_lookup/xml/import_xml_file" \
   -H 'accept: application/json' \
   -H 'Content-Type: multipart/form-data' \
   -F 'data_type=customer_address' \
-  -F 'field_mappings={   "id": "//DataArea/MediShippingAddress/MediShippingAddressHeader/GeneralInfo/BusinessPartner",   "Kundennummer": "//DataArea/MediShippingAddress/MediShippingAddressHeader/GeneralInfo/BusinessPartner",   "Versandanschrift": "//DataArea/MediShippingAddress/MediShippingAddressHeader/GeneralInfo/ShippingAddressNumber",   "Kundenname": "//DataArea/MediShippingAddress/MediShippingAddressHeader/Address/Name1",   "Straße": "//DataArea/MediShippingAddress/MediShippingAddressHeader/Address/Street",   "ORT": "//DataArea/MediShippingAddress/MediShippingAddressHeader/Address/CityName",   "PLZ": "//DataArea/MediShippingAddress/MediShippingAddressHeader/Address/ZipCode" }' \
+  -F 'field_mappings={   "id": "//DataArea/ShippingAddress/ShippingAddressHeader/GeneralInfo/BusinessPartner",   "Kundennummer": "//DataArea/ShippingAddress/ShippingAddressHeader/GeneralInfo/BusinessPartner",   "Versandanschrift": "//DataArea/ShippingAddress/ShippingAddressHeader/GeneralInfo/ShippingAddressNumber",   "Kundenname": "//DataArea/ShippingAddress/ShippingAddressHeader/Address/Name1",   "Straße": "//DataArea/ShippingAddress/ShippingAddressHeader/Address/Street",   "ORT": "//DataArea/ShippingAddress/ShippingAddressHeader/Address/CityName",   "PLZ": "//DataArea/ShippingAddress/ShippingAddressHeader/Address/ZipCode" }' \
   -F 'file=@address_xml_bod.xml;type=text/xml'
 ```
 
