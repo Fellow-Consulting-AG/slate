@@ -222,6 +222,54 @@ curl -X 'GET' \
   -H 'X-API-KEY: meowmeowmeow'
 ```
 
+# Test Classify
+
+## Classifier v2
+
+Upload and test direct the classification of a document
+
+
+```json
+{
+  "model_name": "visual_classifier",
+  "model_version": "1",
+  "classification_label": "custom_label",
+  "doc_type": null,
+  "pages": [
+    {
+      "page": 1,
+      "classification": "email",
+      "prob": 0.9810521602630615,
+      "model_name": "visual_classifier",
+      "model_version": "1",
+      "label_doc_type": null,
+      "label_priority": 6
+    },
+    {
+      "page": 2,
+      "classification": "custom label",
+      "prob": 0.9877511262893677,
+      "model_name": "visual_classifier",
+      "model_version": "1",
+      "label_doc_type": null,
+      "label_priority": 1
+    }
+  ],
+  "classification_score": 0.9877511262893677
+}
+
+```
+
+
+```shell
+curl -X 'POST' \
+  'https://dev.api.polydocs.io/classifier_v2/classify_document' \
+  -H 'accept: application/json' \
+  -H 'X-API-KEY: meowmeowmeow' \
+  -H 'Content-Type: multipart/form-data' \
+  -F 'file=@B_47444625_PDF_D52FGM54.PDF;type=application/pdf'
+```
+
 
 # /HEALTHZ
 ## ***GET*** 
