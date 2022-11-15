@@ -3,9 +3,7 @@ title: API Reference
 
 language_tabs: # must be one of https://git.io/vQNgJ
   - shell
-  - ruby
-  - python
-  - javascript
+
 
 toc_footers:
   - <a href='https://app.polydocs.io'>Sign Up for a Developer Key</a>
@@ -67,12 +65,7 @@ curl "http://example.com/api/kittens" \
   -H "Authorization: meowmeowmeow"
 ```
 
-```javascript
-const Polydocs = require('kittn');
 
-let api = kittn.authorize('meowmeowmeow');
-let kittens = api.kittens.get();
-```
 
 > The above command returns JSON structured like this:
 
