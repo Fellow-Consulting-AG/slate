@@ -47,9 +47,9 @@ curl "api_endpoint_here" \
 
 > Make sure to replace `meowmeowmeow` with your API key.
 
-Kittn uses API keys to allow access to the API. You can register a new Polydocs API key at our [developer portal](http://example.com/developers).
+Polydocs uses API keys to allow access to the API. You find your  Polydocs API key in our [Seeting Integration](https://app.polydocs.io).
 
-Kittn expects for the API key to be included in all API requests to the server in a header that looks like the following:
+Polydocs expects for the API key to be included in all API requests to the server in a header that looks like the following:
 
 `Authorization: meowmeowmeow`
 
@@ -57,7 +57,7 @@ Kittn expects for the API key to be included in all API requests to the server i
 You must replace <code>meowmeowmeow</code> with your personal API key.
 </aside>
 
-# Kittens
+# Polydocs
 
 ## Get All Kittens
 
@@ -188,12 +188,7 @@ curl "http://example.com/api/kittens/2" \
   -H "Authorization: meowmeowmeow"
 ```
 
-```javascript
-const Polydocs = require('kittn');
 
-let api = kittn.authorize('meowmeowmeow');
-let max = api.kittens.delete(2);
-```
 
 > The above command returns JSON structured like this:
 
@@ -215,6 +210,46 @@ This endpoint deletes a specific kitten.
 Parameter | Description
 --------- | -----------
 ID | The ID of the kitten to delete
+
+# MasterData
+
+## Insert new Master Data 
+
+/master_data_lookup/xml/import_xml_file
+
+{
+  "id": "//DataArea/MediShippingAddress/MediShippingAddressHeader/GeneralInfo/BusinessPartner",
+  "Kundennummer": "//DataArea/MediShippingAddress/MediShippingAddressHeader/GeneralInfo/BusinessPartner",
+  "Versandanschrift": "//DataArea/MediShippingAddress/MediShippingAddressHeader/GeneralInfo/ShippingAddressNumber",
+  "Kundenname": "//DataArea/MediShippingAddress/MediShippingAddressHeader/Address/Name1",
+  "Straße": "//DataArea/MediShippingAddress/MediShippingAddressHeader/Address/Street",
+  "ORT": "//DataArea/MediShippingAddress/MediShippingAddressHeader/Address/CityName",
+  "PLZ": "//DataArea/MediShippingAddress/MediShippingAddressHeader/Address/ZipCode"
+}
+
+with the Name customer_address
+
+```shell
+curl "https://api.polydocs.io/master_data_lookup/xml/import_xml_file" \
+  -X POST \
+  -H "X-API-KEY:: meowmeowmeow"
+  -H 'accept: application/json' \
+  -H 'Content-Type: multipart/form-data' \
+  -F 'data_type=customer_address' \
+  -F 'field_mappings={   "id": "//DataArea/MediShippingAddress/MediShippingAddressHeader/GeneralInfo/BusinessPartner",   "Kundennummer": "//DataArea/MediShippingAddress/MediShippingAddressHeader/GeneralInfo/BusinessPartner",   "Versandanschrift": "//DataArea/MediShippingAddress/MediShippingAddressHeader/GeneralInfo/ShippingAddressNumber",   "Kundenname": "//DataArea/MediShippingAddress/MediShippingAddressHeader/Address/Name1",   "Straße": "//DataArea/MediShippingAddress/MediShippingAddressHeader/Address/Street",   "ORT": "//DataArea/MediShippingAddress/MediShippingAddressHeader/Address/CityName",   "PLZ": "//DataArea/MediShippingAddress/MediShippingAddressHeader/Address/ZipCode" }' \
+  -F 'file=@address_xml_bod.xml;type=text/xml'
+```
+
+## Lookup Customer Data
+
+To check the data in the database you can use /master_data_lookup/get_data
+
+```shell
+curl -X 'GET' \
+  'https://dev.api.polydocs.io/master_data_lookup/get_data?data_type=customer_address' \
+  -H 'accept: application/json' \
+  -H 'X-API-KEY: meowmeowmeow'
+```
 
 
 # /HEALTHZ
