@@ -330,7 +330,7 @@ DOC2 - API
 # /GROUP_PERMISSION/SET_ALL_GROUPS_PERMISSIONS
 ## ***POST*** 
 
-**Summary:** Set All Groups Permissions
+**Summary:** This API allows you to set what permissions all groups have enabled.
 
 ### HTTP Request 
 `***POST*** /group_permission/set_all_groups_permissions` 
