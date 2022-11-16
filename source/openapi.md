@@ -39,7 +39,7 @@ DOC2 - API
 # /LOGTAIL/
 ## ***POST*** 
 
-**Summary:** Get Logs By Query
+**Summary:** This API retrieves logs from the system
 
 ### HTTP Request 
 `***POST*** /logtail/` 
@@ -69,7 +69,7 @@ DOC2 - API
 # /USERS/GET_USERS
 ## ***GET*** 
 
-**Summary:** Get Users
+**Summary:** This API allows you to retrieve specific users from the system.
 
 ### HTTP Request 
 `***GET*** /users/get_users` 
