@@ -215,7 +215,7 @@ DOC2 - API
 
 
 ## Logtail Next
-### ***/logtail/next
+### ***/logtail/next***
 
 **Summary:** Get Next Logs
 
