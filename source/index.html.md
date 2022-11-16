@@ -227,8 +227,11 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /USERS/GET_USERS
-## ***GET*** 
+# USERS
+
+## Get
+
+### ***/users/get_users*** 
 
 **Summary:** This API allows you to retrieve specific users from the system.
 
