@@ -212,8 +212,8 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# LOGTAIL/NEXT
-## /LOGTA
+
+## /LOGTAIL/NEXT
 ## ***POST*** 
 
 **Summary:** Get Next Logs
