@@ -315,7 +315,7 @@ DOC2 - API
 # /GROUP_PERMISSION/SET_GROUP_PERMISSIONS
 ## ***POST*** 
 
-**Summary:** Set Group Permissions
+**Summary:** This API allows you to set what permissions a specific group has enabled.
 
 ### HTTP Request 
 `***POST*** /group_permission/set_group_permissions` 
