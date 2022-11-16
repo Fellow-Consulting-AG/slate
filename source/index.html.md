@@ -310,7 +310,7 @@ DOC2 - API
 
 ### **/users/get_users_who_can_approve**
 
-**Summary:** This API retrieves all the users that have the ability to approve certain changes in the system.
+**Summary:** This API retrieves all the users that have the ability to approve changes in the system.
 
 ### HTTP Request 
 `***GET*** /users/get_users_who_can_approve` 
