@@ -234,7 +234,7 @@ DOC2 - API
 # /GROUPS/ADD_USER_TO_GROUP
 ## ***POST*** 
 
-**Summary:** 
+**Summary:** This API allows you to add a new user to a specific group.
 
 ### HTTP Request 
 `***POST*** /groups/add_user_to_group` 
