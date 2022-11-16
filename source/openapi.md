@@ -119,7 +119,7 @@ DOC2 - API
 # /USERS/UPDATE/{USER_ID}
 ## ***PUT*** 
 
-**Summary:** This user
+**Summary:** This API allows you to update or change any specific users information.
 
 ### HTTP Request 
 `***PUT*** /users/update/{user_id}` 
