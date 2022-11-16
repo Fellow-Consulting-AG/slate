@@ -294,7 +294,7 @@ DOC2 - API
 # /GROUPS_AND_USERS/GET_GROUP_USERS
 ## ***GET*** 
 
-**Summary:** Get Group Users
+**Summary:** This API allows you to retrieve the users from a specific group.
 
 ### HTTP Request 
 `***GET*** /groups_and_users/get_group_users` 
