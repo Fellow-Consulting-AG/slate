@@ -231,7 +231,7 @@ DOC2 - API
 
 # **USERS**
 
-## Get
+## Retrieve user
 ### **/users/get_users**
 
 **Summary:** This API allows you to retrieve specific users from the system.
@@ -245,7 +245,7 @@ DOC2 - API
 | ---- | ----------- |
 | 200 | Successful Response |
 
-## Create
+## Create new user
 ### **/users/create**
 
 **Summary:** This API allows you create a new user in the system.
@@ -260,7 +260,7 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-## Delete
+## Delete user
 ### **/users/delete/{user_id}**
 
 **Summary:** This API allows you to delete a user from the system.
@@ -281,7 +281,7 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-## Update
+## Update user information
 ### **/users/update/{user_id}**
 
 **Summary:** This API allows you to update or change any specific users information.
@@ -302,7 +302,7 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-## Users who can approve
+## Retrieve users who can approve
 ### **/users/get_users_who_can_approve**
 
 **Summary:** This API retrieves all the users that have the ability to approve changes in the system.
@@ -327,7 +327,7 @@ DOC2 - API
 
 # **GROUPS**
 
-## Get 
+## Retrieve groups 
 ### **/groups/get_groups**
 
 **Summary:** This API can retrieve a specific group or groups from the system.
@@ -341,7 +341,7 @@ DOC2 - API
 | ---- | ----------- |
 | 200 | Successful Response |
 
-## Create
+## Create new group
 ### **/groups/create**
 
 **Summary:** This API allows you to create a new group in the system.
@@ -356,7 +356,7 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-## Delete
+## Delete group
 ### **/groups/delete/{group_id}**
 
 **Summary:** This API allows you to delete a group from the system.
@@ -377,7 +377,7 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-## Update
+## Update group information
 ### **/groups/update/{group_id}**
 
 **Summary:** This API allows you to update or change any specific groups information.
@@ -398,7 +398,7 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-## Add a user to a group
+## Add user to a group
 ### **/groups/add_user_to_group**
 
 **Summary:** This API allows you to add a new user to a specific group.
