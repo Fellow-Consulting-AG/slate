@@ -232,7 +232,6 @@ DOC2 - API
 # **USERS**
 
 ## Get
-
 ### **/users/get_users**
 
 **Summary:** This API allows you to retrieve specific users from the system.
@@ -247,7 +246,6 @@ DOC2 - API
 | 200 | Successful Response |
 
 ## Create
-
 ### **/users/create**
 
 **Summary:** This API allows you create a new user in the system.
@@ -263,7 +261,6 @@ DOC2 - API
 | 422 | Validation Error |
 
 ## Delete
-
 ### **/users/delete/{user_id}**
 
 **Summary:** This API allows you to delete a user from the system.
@@ -285,7 +282,6 @@ DOC2 - API
 | 422 | Validation Error |
 
 ## Update
-
 ### **/users/update/{user_id}**
 
 **Summary:** This API allows you to update or change any specific users information.
@@ -307,7 +303,6 @@ DOC2 - API
 | 422 | Validation Error |
 
 ## Users who can approve
-
 ### **/users/get_users_who_can_approve**
 
 **Summary:** This API retrieves all the users that have the ability to approve changes in the system.
@@ -333,6 +328,7 @@ DOC2 - API
 # **GROUPS**
 
 ## Get 
+### **/groups/get_groups**
 
 **Summary:** This API can retrieve a specific group or groups from the system.
 
@@ -345,8 +341,8 @@ DOC2 - API
 | ---- | ----------- |
 | 200 | Successful Response |
 
-# /GROUPS/CREATE
-## ***POST*** 
+## Create
+### **/groups/create**
 
 **Summary:** This API allows you to create a new group in the system.
 
@@ -360,8 +356,8 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /GROUPS/DELETE/{GROUP_ID}
-## ***DELETE*** 
+## Delete
+### **/groups/delete/{group_id}**
 
 **Summary:** This API allows you to delete a group from the system.
 
@@ -381,8 +377,8 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /GROUPS/UPDATE/{GROUP_ID}
-## ***PUT*** 
+## Update
+### **/groups/update/{group_id}**
 
 **Summary:** This API allows you to update or change any specific groups information.
 
@@ -402,8 +398,8 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /GROUPS/ADD_USER_TO_GROUP
-## ***POST*** 
+## Add a user to a group
+### **/groups/add_user_to_group**
 
 **Summary:** This API allows you to add a new user to a specific group.
 
