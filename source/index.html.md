@@ -330,10 +330,11 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /GROUPS/GET_GROUPS
-## ***GET*** 
+# **GROUPS**
 
-**Summary:** This API allows you to retrieve a specific group or groups from the system.
+## Get 
+
+**Summary:** This API can retrieve a specific group or groups from the system.
 
 ### HTTP Request 
 `***GET*** /groups/get_groups` 
