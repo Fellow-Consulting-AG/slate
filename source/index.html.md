@@ -198,7 +198,7 @@ DOC2 - API
 | 200 | Successful Response |
 
 # LOGTAIL
-API: /LOGTAIL
+## /LOGTAIL
 
 **Summary:** This API retrieves logs from the system
 
