@@ -279,7 +279,7 @@ DOC2 - API
 # /GROUPS_AND_USERS/REMOVE_USER_FROM_GROUP
 ## ***DELETE*** 
 
-**Summary:** Remove User From Group
+**Summary:** This API allows you to remove a specific user from a group.
 
 ### HTTP Request 
 `***DELETE*** /groups_and_users/remove_user_from_group` 
