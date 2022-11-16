@@ -4771,7 +4771,7 @@ Returns:
 # /HEALTHZ
 ## ***GET*** 
 
-**Summary:** Healthz
+**Summary:** This API checks to see if the system is online.
 
 ### HTTP Request 
 `***GET*** /healthz` 
