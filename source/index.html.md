@@ -199,9 +199,7 @@ DOC2 - API
 
 # LOGTAIL
 ## /LOGTAIL
-
-## ***POST*** 
-
+ 
 **Summary:** This API retrieves logs from the system
 
 ### HTTP Request 
@@ -215,6 +213,7 @@ DOC2 - API
 | 422 | Validation Error |
 
 # LOGTAIL/NEXT
+## /LOGTA
 ## ***POST*** 
 
 **Summary:** Get Next Logs
