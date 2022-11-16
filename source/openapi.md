@@ -345,7 +345,7 @@ DOC2 - API
 # /GROUP_PERMISSION/GET_GROUP_PERMISSIONS
 ## ***GET*** 
 
-**Summary:** Set Group Permissions
+**Summary:** This API retrieves the permissions a group has enabled.
 
 ### HTTP Request 
 `***GET*** /group_permission/get_group_permissions` 
