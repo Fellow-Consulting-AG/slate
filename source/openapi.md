@@ -83,7 +83,7 @@ DOC2 - API
 # /USERS/CREATE
 ## ***POST*** 
 
-**Summary:** This API allows you create a new user for the system.
+**Summary:** This API allows you create a new user in the system.
 
 ### HTTP Request 
 `***POST*** /users/create` 
@@ -177,7 +177,7 @@ DOC2 - API
 # /GROUPS/CREATE
 ## ***POST*** 
 
-**Summary:** Create Group
+**Summary:** This API allows you to create a new group in the system.
 
 ### HTTP Request 
 `***POST*** /groups/create` 
