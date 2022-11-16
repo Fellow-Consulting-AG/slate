@@ -83,7 +83,7 @@ DOC2 - API
 # /USERS/CREATE
 ## ***POST*** 
 
-**Summary:** Create User
+**Summary:** This API allows you create a new user for the system.
 
 ### HTTP Request 
 `***POST*** /users/create` 
