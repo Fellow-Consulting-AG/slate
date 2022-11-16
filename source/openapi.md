@@ -140,7 +140,7 @@ DOC2 - API
 # /USERS/GET_USERS_WHO_CAN_APPROVE
 ## ***GET*** 
 
-**Summary:** Get Users Who Can Approve
+**Summary:** This API retrieves all the users that have the ability to approve certain changes in the system.
 
 ### HTTP Request 
 `***GET*** /users/get_users_who_can_approve` 
