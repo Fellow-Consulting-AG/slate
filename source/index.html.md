@@ -177,7 +177,7 @@ search: true
 
 --- 
 
-# Introduction 
+# **INTRODUCTION** 
 
 DOC2 - API 
 
@@ -197,7 +197,7 @@ DOC2 - API
 | ---- | ----------- |
 | 200 | Successful Response |
 
-# LOGTAIL
+# **LOGTAIL**
 ## Logtail
 ### **/logtail**
 
@@ -229,9 +229,9 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# USERS
+# **USERS**
 
-## **Get**
+## Get
 
 ### **/users/get_users**
 
