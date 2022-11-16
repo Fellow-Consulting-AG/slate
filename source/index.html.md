@@ -214,7 +214,6 @@ DOC2 - API
 
 
 ## /LOGTAIL/NEXT
-## ***POST*** 
 
 **Summary:** Get Next Logs
 
