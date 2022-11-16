@@ -231,9 +231,9 @@ DOC2 - API
 
 # USERS
 
-## Get
+## **Get**
 
-### ***/users/get_users*** 
+### **/users/get_users**
 
 **Summary:** This API allows you to retrieve specific users from the system.
 
@@ -246,8 +246,9 @@ DOC2 - API
 | ---- | ----------- |
 | 200 | Successful Response |
 
-# /USERS/CREATE
-## ***POST*** 
+## Create
+
+### **/users/create**
 
 **Summary:** This API allows you create a new user in the system.
 
@@ -261,8 +262,9 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /USERS/DELETE/{USER_ID}
-## ***DELETE*** 
+## Delete
+
+### **/users/delete/{user_id}**
 
 **Summary:** This API allows you to delete a user from the system.
 
@@ -282,8 +284,9 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /USERS/UPDATE/{USER_ID}
-## ***PUT*** 
+## Update
+
+### **/users/update/{user_id}**
 
 **Summary:** This API allows you to update or change any specific users information.
 
@@ -303,8 +306,9 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /USERS/GET_USERS_WHO_CAN_APPROVE
-## ***GET*** 
+## Users who can approve
+
+### **/users/get_users_who_can_approve**
 
 **Summary:** This API retrieves all the users that have the ability to approve certain changes in the system.
 
