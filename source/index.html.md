@@ -131,7 +131,6 @@ Upload and test direct the classification of a document
     }
   ],
   "classification_score": 0.9877511262893677
-}
 
 ```
 
@@ -149,7 +148,7 @@ curl -X 'POST' \
 # /HEALTHZ
 ## ***GET*** 
 
-**Summary:** Healthz
+**Summary:** This API checks to see if the system is online.
 
 ### HTTP Request 
 `***GET*** /healthz` 
