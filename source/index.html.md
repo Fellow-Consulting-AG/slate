@@ -147,7 +147,7 @@ curl -X 'POST' \
 
 test
 
-# /HEALTHZ
+# HEALTHZ
 ## ***GET*** 
 
 **Summary:** This API checks to see if the system is online.
@@ -183,7 +183,7 @@ DOC2 - API
 
 **Version:** 2.2.10 
 
-# /
+# 
 ## ***GET*** 
 
 **Summary:** Root
@@ -198,6 +198,7 @@ DOC2 - API
 | 200 | Successful Response |
 
 # LOGTAIL
+##### LOGTAIL
 ## ***POST*** 
 
 **Summary:** This API retrieves logs from the system
@@ -212,7 +213,7 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /LOGTAIL/NEXT
+# LOGTAIL/NEXT
 ## ***POST*** 
 
 **Summary:** Get Next Logs
