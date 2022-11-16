@@ -163,7 +163,7 @@ DOC2 - API
 # /GROUPS/GET_GROUPS
 ## ***GET*** 
 
-**Summary:** Get Groups
+**Summary:** This API allows you to retrieve a specific group or groups from the system.
 
 ### HTTP Request 
 `***GET*** /groups/get_groups` 
