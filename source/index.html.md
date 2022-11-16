@@ -198,7 +198,8 @@ DOC2 - API
 | 200 | Successful Response |
 
 # LOGTAIL
-## /logtail
+## Logtail
+### ***/logtail***
 
 **Summary:** This API retrieves logs from the system
 
@@ -213,7 +214,8 @@ DOC2 - API
 | 422 | Validation Error |
 
 
-## /logtail/next
+## Logtail Next
+### ***/logtail/next
 
 **Summary:** Get Next Logs
 
