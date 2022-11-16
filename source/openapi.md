@@ -98,7 +98,7 @@ DOC2 - API
 # /USERS/DELETE/{USER_ID}
 ## ***DELETE*** 
 
-**Summary:** Delete User
+**Summary:** This API allows you to delete a user from the system.
 
 ### HTTP Request 
 `***DELETE*** /users/delete/{user_id}` 
@@ -119,7 +119,7 @@ DOC2 - API
 # /USERS/UPDATE/{USER_ID}
 ## ***PUT*** 
 
-**Summary:** Update User
+**Summary:** This user
 
 ### HTTP Request 
 `***PUT*** /users/update/{user_id}` 
