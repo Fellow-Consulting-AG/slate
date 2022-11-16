@@ -199,7 +199,7 @@ DOC2 - API
 
 # LOGTAIL
 ## Logtail
-### ***/logtail***
+### **/logtail**
 
 **Summary:** This API retrieves logs from the system
 
@@ -215,7 +215,7 @@ DOC2 - API
 
 
 ## Logtail Next
-### ***/logtail/next***
+### **/logtail/next**
 
 **Summary:** Get Next Logs
 
