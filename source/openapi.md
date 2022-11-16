@@ -192,7 +192,7 @@ DOC2 - API
 # /GROUPS/DELETE/{GROUP_ID}
 ## ***DELETE*** 
 
-**Summary:** Delete Group
+**Summary:** This API allows you to delete a group from the system.
 
 ### HTTP Request 
 `***DELETE*** /groups/delete/{group_id}` 
@@ -213,7 +213,7 @@ DOC2 - API
 # /GROUPS/UPDATE/{GROUP_ID}
 ## ***PUT*** 
 
-**Summary:** Update Group
+**Summary:** This API allows you to update or change any specific groups information.
 
 ### HTTP Request 
 `***PUT*** /groups/update/{group_id}` 
@@ -234,7 +234,7 @@ DOC2 - API
 # /GROUPS/ADD_USER_TO_GROUP
 ## ***POST*** 
 
-**Summary:** Create Group
+**Summary:** 
 
 ### HTTP Request 
 `***POST*** /groups/add_user_to_group` 
