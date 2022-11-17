@@ -1068,13 +1068,11 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /EXPORT/EXPORT_ZUGFERD
-## ***GET*** 
+# **EXPORT** 
+## Zugferd
+### **HTTP Request: /EXPORT_ZUGFERD** 
 
-**Summary:** Export Zugferd
-
-### HTTP Request 
-`***GET*** /export/export_zugferd` 
+**Summary:** 
 
 **Parameters**
 
@@ -1090,13 +1088,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /EXPORT/EXPORT_PEPPOL
-## ***GET*** 
+## Peppol 
+### **HTTP Request: /EXPORT/EXPORT_PEPPOL** 
 
-**Summary:** Export Peppol
-
-### HTTP Request 
-`***GET*** /export/export_peppol` 
+**Summary:** 
 
 **Parameters**
 
@@ -1112,13 +1107,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /EXPORT/GET_PENDING_WATCH_EXPORT_DOCUMENTS
-## ***GET*** 
+## Retrieve Pending Watch Export Documents 
+### **HTTP Request: /EXPORT/GET_PENDING_WATCH_EXPORT_DOCUMENTS** 
 
-**Summary:** Get Pending Watch Export Documents
-
-### HTTP Request 
-`***GET*** /export/get_pending_watch_export_documents` 
+**Summary:** This API retrieves all pending watch export documents.
 
 **Parameters**
 
@@ -1133,13 +1125,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /EXPORT/UPDATE_PENDING_WATCH_EXPORT_STATUS
-## ***GET*** 
+## Update Pending Watch Export Status
+### **HTTP Request: /EXPORT/UPDATE_PENDING_WATCH_EXPORT_STATUS** 
 
-**Summary:** Update Pending Watch Export Status
-
-### HTTP Request 
-`***GET*** /export/update_pending_watch_export_status` 
+**Summary:** This API displays the update status of pending watch export documents. 
 
 **Parameters**
 
@@ -1175,13 +1164,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /EXPORT/SAVE_EXTRACTION_RULES
-## ***POST*** 
+## Save Extraction Rules
+### **HTTP Request: /EXPORT/SAVE_EXTRACTION_RULES** 
 
-**Summary:** Save Extraction Rules
-
-### HTTP Request 
-`***POST*** /export/save_extraction_rules` 
+**Summary:** This API sends a command to the system to save all extraction rules.
 
 **Responses**
 
@@ -1190,13 +1176,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /EXPORT/GET_DATA_V1
-## ***GET*** 
+## Retrieve Data V1
+### **HTTP Request: /EXPORT/GET_DATA_V1** 
 
-**Summary:** Get Data V1
-
-### HTTP Request 
-`***GET*** /export/get_data_v1` 
+**Summary:** This API retrieves all V1 data. 
 
 **Parameters**
 
