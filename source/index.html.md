@@ -847,13 +847,11 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /IMPORT/SUPPLIER_BOD_XML
-## ***POST*** 
+# **IMPORT**
+## Supplier BOD XML
+### **HTTP Request: /IMPORT/SUPPLIER_BOD_XML** 
 
-**Summary:** Import Supplier Bod Xml
-
-### HTTP Request 
-`***POST*** /import/supplier_bod_xml` 
+**Summary:** This API imports a supplier BOD XML.
 
 **Responses**
 
@@ -862,13 +860,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /IMPORT/PURCHASE_ORDER_BOD
-## ***POST*** 
+## Purchase Order BOD 
+### **HTTP Request: /IMPORT/PURCHASE_ORDER_BOD** 
 
-**Summary:** Import Purchase Order Bod
-
-### HTTP Request 
-`***POST*** /import/purchase_order_bod` 
+**Summary:** This API imports a purchase order BOD.
 
 **Responses**
 
@@ -877,13 +872,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /IMPORT/PURCHASE_ORDER_BOD_XML
-## ***POST*** 
+## Purchase Order BOD XML 
+### **HTTP Request: /IMPORT/PURCHASE_ORDER_BOD_XML** 
 
-**Summary:** Import Purchase Order Bod Xml
-
-### HTTP Request 
-`***POST*** /import/purchase_order_bod_xml` 
+**Summary:** This API imports a purchase order BOD XML.
 
 **Responses**
 
@@ -892,13 +884,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /IMPORT/ACK_PURCHASE_ORDER_BOD
-## ***POST*** 
+## ACK Purchase Order BOD
+### **HTTP Request: /IMPORT/ACK_PURCHASE_ORDER_BOD** 
 
-**Summary:** Import Ack Purchase Order Bod
-
-### HTTP Request 
-`***POST*** /import/ack_purchase_order_bod` 
+**Summary:** This API imports a ACK purchase order BOD.
 
 **Responses**
 
@@ -907,13 +896,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /IMPORT/ACK_RECEIVE_DELIVERY_BOD
-## ***POST*** 
+## ACK Receive Delivery 
+### **HTTP Request: BOD/IMPORT/ACK_RECEIVE_DELIVERY_BOD** 
 
-**Summary:** Import Ack Receive Delivery Bod
-
-### HTTP Request 
-`***POST*** /import/ack_receive_delivery_bod` 
+**Summary:** This API imports a ACK receive delivery BOD
 
 **Responses**
 
