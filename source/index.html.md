@@ -1273,13 +1273,11 @@ DOC2 - API
 | ---- | ----------- |
 | 200 | Successful Response |
 
-# /DOC_CLASSIFICATION_RULES/GET_DOC_CLASSIFICATION_RULES
-## ***GET*** 
+# **DOCUMENT CLASSIFICATION RULES** 
+## Retrieve Document Classification Rules 
+### **HTTP Request: /DOC_CLASSIFICATION_RULES/GET_DOC_CLASSIFICATION_RULES** 
 
-**Summary:** Get Groups
-
-### HTTP Request 
-`***GET*** /doc_classification_rules/get_doc_classification_rules` 
+**Summary:** This API retrieves the classification rules for a type of document.
 
 **Responses**
 
@@ -1287,13 +1285,10 @@ DOC2 - API
 | ---- | ----------- |
 | 200 | Successful Response |
 
-# /DOC_CLASSIFICATION_RULES/CREATE
-## ***POST*** 
+## Create New Classification Rules 
+### **HTTP Request: /DOC_CLASSIFICATION_RULES/CREATE** 
 
-**Summary:** Create Rule
-
-### HTTP Request 
-`***POST*** /doc_classification_rules/create` 
+**Summary:** This API allows you to create a new classification rule for a specific type of document.
 
 **Responses**
 
@@ -1302,13 +1297,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOC_CLASSIFICATION_RULES/DELETE/{ID}
-## ***DELETE*** 
+## Delete Classification Rules 
+### **HTTP Request: /DOC_CLASSIFICATION_RULES/DELETE/{ID}** 
 
-**Summary:** Delete Group
-
-### HTTP Request 
-`***DELETE*** /doc_classification_rules/delete/{id}` 
+**Summary:** This API allows you to delete a classification rule for a specific type of document.
 
 **Parameters**
 
@@ -1323,13 +1315,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOC_CLASSIFICATION_RULES/UPDATE/{ID}
-## ***PUT*** 
+## Update Classification Rules 
+### **HTTP Request: /DOC_CLASSIFICATION_RULES/UPDATE/{ID}** 
 
-**Summary:** Update
-
-### HTTP Request 
-`***PUT*** /doc_classification_rules/update/{id}` 
+**Summary:** This API allows you to update existing classification rules for a specific document type.
 
 **Parameters**
 
