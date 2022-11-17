@@ -1975,13 +1975,11 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /TABLE_EXTRACTION_V3/AUTO_EXTRACT_TABLE
-## ***POST*** 
+# **TABLE EXTRACTION V3**
+## Auto Extract Table 
+### **HTTP Request: /TABLE_EXTRACTION_V3/AUTO_EXTRACT_TABLE** 
 
-**Summary:** Auto Extract Table V3
-
-### HTTP Request 
-`***POST*** /table_extraction_v3/auto_extract_table` 
+**Summary:** This API allows you to set that a table will be automatically extracted from a document.
 
 **Responses**
 
@@ -1990,13 +1988,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /TABLE_EXTRACTION_V3/GET_TABLE
-## ***POST*** 
+## Retrieve Table 
+### **HTTP Request: /TABLE_EXTRACTION_V3/GET_TABLE** 
 
-**Summary:** Get Table
-
-### HTTP Request 
-`***POST*** /table_extraction_v3/get_table` 
+**Summary:** This API will retrieve a specific table froma document.
 
 **Responses**
 
@@ -2005,13 +2000,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /TABLE_EXTRACTION_V3/REFORMAT_TABLE
-## ***POST*** 
+## Reformat Table 
+### **HTTP Request: /TABLE_EXTRACTION_V3/REFORMAT_TABLE** 
 
-**Summary:** Reformat Table
-
-### HTTP Request 
-`***POST*** /table_extraction_v3/reformat_table` 
+**Summary:** This API allows you to reformat an extracted table.
 
 **Responses**
 
@@ -2020,13 +2012,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /TABLE_EXTRACTION_V3/GET_COMPACT_TABLE
-## ***POST*** 
+## Retrieve Compact Table 
+### **HTTP Request: /TABLE_EXTRACTION_V3/GET_COMPACT_TABLE** 
 
-**Summary:** Get Compact Table
-
-### HTTP Request 
-`***POST*** /table_extraction_v3/get_compact_table` 
+**Summary:** This API will retrieve a compact table.
 
 **Responses**
 
@@ -2035,13 +2024,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /TABLE_EXTRACTION_V3/CREATE_DOCUMENT_TABLE_COLUMN
-## ***POST*** 
+## Create Table Column 
+### **HTTP Request: /TABLE_EXTRACTION_V3/CREATE_DOCUMENT_TABLE_COLUMN** 
 
-**Summary:** Create Document Type
-
-### HTTP Request 
-`***POST*** /table_extraction_v3/create_document_table_column` 
+**Summary:** This API allows you to create a table column for a document.
 
 **Responses**
 
@@ -2050,13 +2036,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /TABLE_EXTRACTION_V3/DELETE_TABLE_RULES
-## ***POST*** 
+## Delete Table Rules 
+### **HTTP Request: /TABLE_EXTRACTION_V3/DELETE_TABLE_RULES** 
 
-**Summary:** Delete Table Rules
-
-### HTTP Request 
-`***POST*** /table_extraction_v3/delete_table_rules` 
+**Summary:** This API allows you to delete table rules.
 
 **Responses**
 
