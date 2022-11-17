@@ -1261,13 +1261,11 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /MIGRATION/GET_MIGRATION_VERSION
-## ***GET*** 
+# **MIGRATION**
+## Retrieve Migration Version 
+### **HTTP Request: /MIGRATION/GET_MIGRATION_VERSION** 
 
-**Summary:** Get Migration Version
-
-### HTTP Request 
-`***GET*** /migration/get_migration_version` 
+**Summary:** This API retrieves a migration version.
 
 **Responses**
 
