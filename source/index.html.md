@@ -199,12 +199,9 @@ DOC2 - API
 
 # **LOGTAIL**
 ## Logtail
-### **/logtail**
+### **HTTP Request: /logtail**
 
-**Summary:** This API retrieves logs from the system
-
-### HTTP Request 
-`***POST*** /logtail/` 
+**Summary:** This API retrieves logs from the system  
 
 **Responses**
 
@@ -215,12 +212,9 @@ DOC2 - API
 
 
 ## Logtail Next
-### **/logtail/next**
+### **HTTP Request: /logtail/next**
 
-**Summary:** Get Next Logs
-
-### HTTP Request 
-`***POST*** /logtail/next` 
+**Summary:** Get Next Logs 
 
 **Responses**
 
@@ -232,12 +226,9 @@ DOC2 - API
 # **USERS**
 
 ## Retrieve user
-### **/users/get_users**
+### **HTTP Request: /users/get_users**
 
 **Summary:** This API allows you to retrieve specific users from the system.
-
-### HTTP Request 
-`***GET*** /users/get_users` 
 
 **Responses**
 
@@ -246,12 +237,9 @@ DOC2 - API
 | 200 | Successful Response |
 
 ## Create new user
-### **/users/create**
+### **HTTP Request: /users/create**
 
 **Summary:** This API allows you create a new user in the system.
-
-### HTTP Request 
-`***POST*** /users/create` 
 
 **Responses**
 
@@ -261,12 +249,9 @@ DOC2 - API
 | 422 | Validation Error |
 
 ## Delete user
-### **/users/delete/{user_id}**
+### **HTTP Request: /users/delete/{user_id}**
 
 **Summary:** This API allows you to delete a user from the system.
-
-### HTTP Request 
-`***DELETE*** /users/delete/{user_id}` 
 
 **Parameters**
 
@@ -282,12 +267,9 @@ DOC2 - API
 | 422 | Validation Error |
 
 ## Update user information
-### **/users/update/{user_id}**
+### **HTTP Request: /users/update/{user_id}**
 
 **Summary:** This API allows you to update or change any specific users information.
-
-### HTTP Request 
-`***PUT*** /users/update/{user_id}` 
 
 **Parameters**
 
@@ -303,12 +285,9 @@ DOC2 - API
 | 422 | Validation Error |
 
 ## Retrieve users who can approve
-### **/users/get_users_who_can_approve**
+### **HTTP Request: /users/get_users_who_can_approve**
 
 **Summary:** This API retrieves all the users that have the ability to approve changes in the system.
-
-### HTTP Request 
-`***GET*** /users/get_users_who_can_approve` 
 
 **Parameters**
 
@@ -328,12 +307,9 @@ DOC2 - API
 # **GROUPS**
 
 ## Retrieve groups 
-### **/groups/get_groups**
+### **HTTP Request: /groups/get_groups**
 
-**Summary:** This API can retrieve a specific group or groups from the system.
-
-### HTTP Request 
-`***GET*** /groups/get_groups` 
+**Summary:** This API can retrieve a specific group or groups from the system. 
 
 **Responses**
 
@@ -342,12 +318,9 @@ DOC2 - API
 | 200 | Successful Response |
 
 ## Create new group
-### **/groups/create**
+### **HTTP Request: /groups/create**
 
 **Summary:** This API allows you to create a new group in the system.
-
-### HTTP Request 
-`***POST*** /groups/create` 
 
 **Responses**
 
@@ -357,12 +330,9 @@ DOC2 - API
 | 422 | Validation Error |
 
 ## Delete group
-### **/groups/delete/{group_id}**
+### **HTTP Request: /groups/delete/{group_id}**
 
 **Summary:** This API allows you to delete a group from the system.
-
-### HTTP Request 
-`***DELETE*** /groups/delete/{group_id}` 
 
 **Parameters**
 
@@ -378,12 +348,9 @@ DOC2 - API
 | 422 | Validation Error |
 
 ## Update group information
-### **/groups/update/{group_id}**
+### **HTTP Request: /groups/update/{group_id}**
 
 **Summary:** This API allows you to update or change any specific groups information.
-
-### HTTP Request 
-`***PUT*** /groups/update/{group_id}` 
 
 **Parameters**
 
@@ -399,12 +366,9 @@ DOC2 - API
 | 422 | Validation Error |
 
 ## Add user to a group
-### **/groups/add_user_to_group**
+### **HTTP Request: /groups/add_user_to_group**
 
 **Summary:** This API allows you to add a new user to a specific group.
-
-### HTTP Request 
-`***POST*** /groups/add_user_to_group` 
 
 **Responses**
 
@@ -415,12 +379,9 @@ DOC2 - API
 
 # **GROUPS AND USERS**
 ## Add user to a group
-### **/groups_and_users/add_user_to_group**
+### **HTTP Request: /groups_and_users/add_user_to_group**
 
 **Summary:** This API allows you to add a specific user to a group.
-
-### HTTP Request 
-`***POST*** /groups_and_users/add_user_to_group` 
 
 **Responses**
 
@@ -430,12 +391,9 @@ DOC2 - API
 | 422 | Validation Error |
 
 ## Add mltiple users to a group
-### **/groups_and_users/add_users_to_group** 
+### **HTTP Request: /groups_and_users/add_users_to_group** 
 
 **Summary:** This API allows you to add multiple users to a group.
-
-### HTTP Request 
-`***POST*** /groups_and_users/add_users_to_group` 
 
 **Responses**
 
@@ -445,12 +403,9 @@ DOC2 - API
 | 422 | Validation Error |
 
 ## Remove user from a group
-### **/groups_and_users/remove_user_from_group** 
+### **HTTP Request: /groups_and_users/remove_user_from_group** 
 
 **Summary:** This API allows you to remove a specific user from a group.
-
-### HTTP Request 
-`***DELETE*** /groups_and_users/remove_user_from_group` 
 
 **Responses**
 
@@ -460,12 +415,9 @@ DOC2 - API
 | 422 | Validation Error |
 
 ## Retrieve users from a group 
-### **/groups_and_users/get_group_users** 
+### **HTTP Request: /groups_and_users/get_group_users** 
 
 **Summary:** This API allows you to retrieve the users from a specific group.
-
-### HTTP Request 
-`***GET*** /groups_and_users/get_group_users` 
 
 **Parameters**
 
@@ -480,14 +432,12 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /GROUP_PERMISSION/SET_GROUP_PERMISSIONS
-## ***POST*** 
+# **GROUP PERMISSIONS**
+## Set group permissions
+### **HTTP Request: /group_permission/set_group_permissions**
 
 **Summary:** This API allows you to set what permissions a specific group has enabled.
 
-### HTTP Request 
-`***POST*** /group_permission/set_group_permissions` 
-
 **Responses**
 
 | Code | Description |
@@ -495,14 +445,11 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /GROUP_PERMISSION/SET_ALL_GROUPS_PERMISSIONS
-## ***POST*** 
+## Set permissions for all groups 
+### **HTTP Request: /group_permission/set_all_group_permissions**
 
 **Summary:** This API allows you to set what permissions all groups have enabled.
 
-### HTTP Request 
-`***POST*** /group_permission/set_all_groups_permissions` 
-
 **Responses**
 
 | Code | Description |
@@ -510,14 +457,11 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /GROUP_PERMISSION/GET_GROUP_PERMISSIONS
-## ***GET*** 
+## Retrieve permissions of a group 
+## **HTTP Request: /group_permission/get_group_permissions** 
 
 **Summary:** This API retrieves the permissions a group has enabled.
 
-### HTTP Request 
-`***GET*** /group_permission/get_group_permissions` 
-
 **Responses**
 
 | Code | Description |
@@ -525,27 +469,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-## ***POST*** 
+## Get permissions of all groups
+## **HTTP Request: /group_permission/get_all_group_permissions**
 
-**Summary:** Set Group Permissions
-
-### HTTP Request 
-`***POST*** /group_permission/get_group_permissions` 
-
-**Responses**
-
-| Code | Description |
-| ---- | ----------- |
-| 200 | Successful Response |
-| 422 | Validation Error |
-
-# /GROUP_PERMISSION/GET_ALL_GROUPS_PERMISSIONS
-## ***GET*** 
-
-**Summary:** Set Group Permissions
-
-### HTTP Request 
-`***GET*** /group_permission/get_all_groups_permissions` 
+**Summary:** This API retireves all the permissions each group has enabled.
 
 **Responses**
 
@@ -553,39 +480,10 @@ DOC2 - API
 | ---- | ----------- |
 | 200 | Successful Response |
 
-## ***POST*** 
+## Retrieve user groups and permissions
+### HTTP Request: /group_permission/get_user_groups_and_permissions 
 
-**Summary:** Set Group Permissions
-
-### HTTP Request 
-`***POST*** /group_permission/get_all_groups_permissions` 
-
-**Responses**
-
-| Code | Description |
-| ---- | ----------- |
-| 200 | Successful Response |
-
-# /GROUP_PERMISSION/GET_USER_GROUPS_AND_PERMISSIONS
-## ***GET*** 
-
-**Summary:** Set Group Permissions
-
-### HTTP Request 
-`***GET*** /group_permission/get_user_groups_and_permissions` 
-
-**Responses**
-
-| Code | Description |
-| ---- | ----------- |
-| 200 | Successful Response |
-
-## ***POST*** 
-
-**Summary:** Set Group Permissions
-
-### HTTP Request 
-`***POST*** /group_permission/get_user_groups_and_permissions` 
+**Summary:** This API retrieves the groups a specific user belongs too and the permissions that are neabled for these groups.
 
 **Responses**
 
