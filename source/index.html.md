@@ -1333,13 +1333,11 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT/CLASSIFY_DOCUMENT
-## ***POST*** 
+# **DOCUMENTS**
+## Classify a Document 
+### **HTTP Request: /DOCUMENT/CLASSIFY_DOCUMENT** 
 
-**Summary:** Process Doc2Landing Document
-
-### HTTP Request 
-`***POST*** /document/classify_document` 
+**Summary:** This API allows you to classify a document.
 
 **Responses**
 
@@ -1348,13 +1346,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT/PROCESS_DOC2LANDING_DOCUMENT
-## ***POST*** 
+## Process DOC² Landing Document
+### **HTTP Request: /DOCUMENT/PROCESS_DOC2LANDING_DOCUMENT** 
 
-**Summary:** Process Doc2Landing Document
-
-### HTTP Request 
-`***POST*** /document/process_doc2landing_document` 
+**Summary:** This API allows you to process a landing document for DOC². 
 
 **Responses**
 
@@ -1363,13 +1358,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT/PROCESS_DOCUMENTS
-## ***POST*** 
+## Process Documents 
+### **HTTP Request: /DOCUMENT/PROCESS_DOCUMENTS** 
 
-**Summary:** Process Documents
-
-### HTTP Request 
-`***POST*** /document/process_documents` 
+**Summary:** This API allows you to process documents.
 
 **Responses**
 
@@ -1378,13 +1370,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT/PROCESS
-## ***POST*** 
+## Process 
+### **HTTP Request: /DOCUMENT/PROCESS** 
 
-**Summary:** Process
-
-### HTTP Request 
-`***POST*** /document/process` 
+**Summary:** 
 
 **Responses**
 
@@ -1393,13 +1382,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT/PROCESS_BASE64
-## ***POST*** 
+## Process Base64 
+### **HTTP Request: /DOCUMENT/PROCESS_BASE64** 
 
-**Summary:** Process Base64
-
-### HTTP Request 
-`***POST*** /document/process_base64` 
+**Summary:** 
 
 **Responses**
 
@@ -1408,13 +1394,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT/UPDATE/{DOC_ID}
-## ***POST*** 
+## Update Document 
+### **HTTP Request: /DOCUMENT/UPDATE/{DOC_ID}** 
 
-**Summary:** Update
-
-### HTTP Request 
-`***POST*** /document/update/{doc_id}` 
+**Summary:** This API allows you to update an existing document.
 
 **Parameters**
 
@@ -1429,13 +1412,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT/VALIDATE_AND_EXPORT/{DOC_ID}
-## ***POST*** 
+## Validate and Export 
+### **HTTP Request: /DOCUMENT/VALIDATE_AND_EXPORT/{DOC_ID}** 
 
-**Summary:** Validate And Export
-
-### HTTP Request 
-`***POST*** /document/validate_and_export/{doc_id}` 
+**Summary:** This API allows you to validate and export a document.
 
 **Parameters**
 
@@ -1450,13 +1430,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT/LIST
-## ***GET*** 
+## Retrieve List of Documents 
+### **HTTP Request: /DOCUMENT/LIST** 
 
-**Summary:** Documents List
-
-### HTTP Request 
-`***GET*** /document/list` 
+**Summary:** This API retrieves a list of all existing documents in the system. 
 
 **Parameters**
 
@@ -1474,14 +1451,11 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT/STATUS/{DOC_ID}
-## ***GET*** 
+## Retrieve Document Status 
+### **HTTP Request: /DOCUMENT/STATUS/{DOC_ID}** 
 
-**Summary:** Documents Status
-
-### HTTP Request 
-`***GET*** /document/status/{doc_id}` 
-
+**Summary:** This API shows the status of a specific document.
+ 
 **Parameters**
 
 | Name | Located in | Description | Required | Type |
@@ -1495,13 +1469,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT/DASHBOARD
-## ***GET*** 
+## Dashboard 
+### **HTTP Request: /DOCUMENT/DASHBOARD** 
 
-**Summary:** Dashboard
-
-### HTTP Request 
-`***GET*** /document/dashboard` 
+**Summary:** 
 
 **Parameters**
 
@@ -1527,13 +1498,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT/EXTRACTION_RESULT
-## ***POST*** 
+## Extraction Result 
+### **HTTP Request: /DOCUMENT/EXTRACTION_RESULT** 
 
-**Summary:** Extraction Result
-
-### HTTP Request 
-`***POST*** /document/extraction_result` 
+**Summary:** This API displays the extraction results of a document.
 
 **Responses**
 
@@ -1542,13 +1510,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT/GET_ITEMS_FROM_DICTIONARY/{ITEM}
-## ***GET*** 
+## Retrieve Items from Dictionary 
+### **HTTP Request: /DOCUMENT/GET_ITEMS_FROM_DICTIONARY/{ITEM}** 
 
-**Summary:** Get Items From Dictionary
-
-### HTTP Request 
-`***GET*** /document/get_items_from_dictionary/{item}` 
+**Summary:** This API retrieves items from dictionary.
 
 **Parameters**
 
@@ -1563,13 +1528,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT/RESTART/{DOC_ID}
-## ***GET*** 
+## Restart 
+### **HTTP Request: /DOCUMENT/RESTART/{DOC_ID}** 
 
-**Summary:** Restart
-
-### HTTP Request 
-`***GET*** /document/restart/{doc_id}` 
+**Summary:** This API allows you to restart the processing of a specific document. 
 
 **Parameters**
 
@@ -1585,13 +1547,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT/RESTART_DOCUMENTS
-## ***POST*** 
+## Restart Documents 
+### **HTTP Request: /DOCUMENT/RESTART_DOCUMENTS** 
 
-**Summary:** Restart Documents
-
-### HTTP Request 
-`***POST*** /document/restart_documents` 
+**Summary:** This API restarts the processing of all documents in an organisation.
 
 **Responses**
 
@@ -1600,13 +1559,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT/APPROVE_OR_REJECT/{DOC_ID}
-## ***POST*** 
+## Approve or Reject 
+### **HTTP Request: /DOCUMENT/APPROVE_OR_REJECT/{DOC_ID}** 
 
-**Summary:** Approve Or Reject
-
-### HTTP Request 
-`***POST*** /document/approve_or_reject/{doc_id}` 
+**Summary:** This API allows you to either accept or reject a specific document.
 
 **Parameters**
 
@@ -1621,13 +1577,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT/UPDATE_DOCUMENT_LOG/{DOC_ID}
-## ***POST*** 
+## Update Document Log 
+### **HTTP Request: /DOCUMENT/UPDATE_DOCUMENT_LOG/{DOC_ID}** 
 
-**Summary:** Update Document Log
-
-### HTTP Request 
-`***POST*** /document/update_document_log/{doc_id}` 
+**Summary:** This API updates the document log.
 
 **Parameters**
 
@@ -1642,13 +1595,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT/GET_DOCUMENT_LOG/{DOC_ID}
-## ***POST*** 
+## Retrieve Document Log
+### **HTTP Request: /DOCUMENT/GET_DOCUMENT_LOG/{DOC_ID}** 
 
-**Summary:** Get Document Log
-
-### HTTP Request 
-`***POST*** /document/get_document_log/{doc_id}` 
+**Summary:** This API retrieves the log of a specific document.
 
 **Parameters**
 
@@ -1663,13 +1613,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT/RESTART_WITH_NEW_CLASSIFICATION/{DOC_ID}
-## ***POST*** 
+## Restart with New Classification 
+### *HTTP Request: /DOCUMENT/RESTART_WITH_NEW_CLASSIFICATION/{DOC_ID}** 
 
-**Summary:** Restart With New Classification
-
-### HTTP Request 
-`***POST*** /document/restart_with_new_classification/{doc_id}` 
+**Summary:** 
 
 **Parameters**
 
@@ -1747,13 +1694,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT/DELETE_DOCUMENTS
-## ***DELETE*** 
+## Delete Documents 
+### **HTTP Request: /DOCUMENT/DELETE_DOCUMENTS** 
 
-**Summary:** Delete Documents
-
-### HTTP Request 
-`***DELETE*** /document/delete_documents` 
+**Summary:** This API allows you to delete documents.
 
 **Responses**
 
@@ -1762,13 +1706,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT/ASSIGN/{DOC_ID}
-## ***POST*** 
+## Assign Specific Document 
+### **HTTP Request: /DOCUMENT/ASSIGN/{DOC_ID}** 
 
-**Summary:** Assign
-
-### HTTP Request 
-`***POST*** /document/assign/{doc_id}` 
+**Summary:** 
 
 **Parameters**
 
@@ -1783,13 +1724,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT/ASSIGN_DOCUMENTS
-## ***POST*** 
+## Assign Documents
+### **HTTP Request: /DOCUMENT/ASSIGN_DOCUMENTS** 
 
-**Summary:** Assign Documents
-
-### HTTP Request 
-`***POST*** /document/assign_documents` 
+**Summary:** 
 
 **Responses**
 
@@ -1798,14 +1736,11 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT/ASSIGN_WITH_EMAIL/{DOC_ID}
-## ***POST*** 
+## Assign with Email 
+### **HTTP Request: /DOCUMENT/ASSIGN_WITH_EMAIL/{DOC_ID}** 
 
 **Summary:** Assign With Email
 
-### HTTP Request 
-`***POST*** /document/assign_with_email/{doc_id}` 
-
 **Parameters**
 
 | Name | Located in | Description | Required | Type |
@@ -1819,13 +1754,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT/GET_NEXT_DOCUMENT/{DOC_ID}
-## ***GET*** 
+## Retrieve Next Document 
+### **HTTP Request: /DOCUMENT/GET_NEXT_DOCUMENT/{DOC_ID}** 
 
 **Summary:** Get Next Document
-
-### HTTP Request 
-`***GET*** /document/get_next_document/{doc_id}` 
 
 **Parameters**
 
@@ -1843,13 +1775,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT/GET_OCR_DATA/{DOC_ID}
-## ***POST*** 
+## Retrieve OCR Data 
+### **HTTP Request: /DOCUMENT/GET_OCR_DATA/{DOC_ID}** 
 
-**Summary:** Get Ocr Data
-
-### HTTP Request 
-`***POST*** /document/get_ocr_data/{doc_id}` 
+**Summary:** This API retrieves the OCR data of a specific document.
 
 **Parameters**
 
@@ -1864,13 +1793,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT/DELETE_ERROR_DOCS
-## ***DELETE*** 
+## Delete Documents in Error Status
+### **HTTP Request: /DOCUMENT/DELETE_ERROR_DOCS** 
 
-**Summary:** Delete Error Docs
-
-### HTTP Request 
-`***DELETE*** /document/delete_error_docs` 
+**Summary:** This API allows you to delete documents that are in error status. 
 
 **Responses**
 
@@ -1878,13 +1804,10 @@ DOC2 - API
 | ---- | ----------- |
 | 200 | Successful Response |
 
-# /DOCUMENT/SPLIT_DOCUMENT
-## ***POST*** 
+## Split Document 
+### **HTTP Request: /DOCUMENT/SPLIT_DOCUMENT** 
 
-**Summary:** Split Document
-
-### HTTP Request 
-`***POST*** /document/split_document` 
+**Summary:** This API allows you to split a document.
 
 **Responses**
 
@@ -1893,13 +1816,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT/GENERATE_THUMBNAILS
-## ***POST*** 
+## Generate Thumbnails 
+### **HTTP Request: /DOCUMENT/GENERATE_THUMBNAILS** 
 
-**Summary:** Generate Thumbnails
-
-### HTTP Request 
-`***POST*** /document/generate_thumbnails` 
+**Summary:** This API generates a preview image of what the document will look like.
 
 **Responses**
 
@@ -1908,13 +1828,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT/GET_DOC_STATUS_XML
-## ***POST*** 
+## Retrieve Document Status XML 
+### **HTTP Request: /DOCUMENT/GET_DOC_STATUS_XML** 
 
-**Summary:** Get Doc Status Xml
-
-### HTTP Request 
-`***POST*** /document/get_doc_status_xml` 
+**Summary:** This API retrieves the status of an XML document.
 
 **Responses**
 
@@ -1923,13 +1840,11 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT_LAYOUT_TEMPLATE/GET_LAYOUT_TEMPLATES
-## ***GET*** 
+# **DOCUMENT LAYOUT TEMPLATES**
+## Retrieve Layout Templates 
+### **HTTP Request: /DOCUMENT_LAYOUT_TEMPLATE/GET_LAYOUT_TEMPLATES** 
 
-**Summary:** Get Layout Templates
-
-### HTTP Request 
-`***GET*** /document_layout_template/get_layout_templates` 
+**Summary:** This API retrieves layout templates for a document.
 
 **Parameters**
 
@@ -1945,7 +1860,7 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT_LAYOUT_TEMPLATE/CREATE
+## /DOCUMENT_LAYOUT_TEMPLATE/CREATE
 ## ***POST*** 
 
 **Summary:** Create Layout Templates
