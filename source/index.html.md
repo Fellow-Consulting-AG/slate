@@ -986,13 +986,11 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /ORG_DETAILS/SET_ORG_DETAILS
-## ***POST*** 
+# **ORGANISATION DETAILS
+## Set Details 
+### **HTTP Request: /ORG_DETAILS/SET_ORG_DETAILS** 
 
-**Summary:** Set Org Details
-
-### HTTP Request 
-`***POST*** /org_details/set_org_details` 
+**Summary:** This API allows you to add the details of a specific organisation.
 
 **Responses**
 
@@ -1001,13 +999,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /ORG_DETAILS/GET_ORG_DETAILS
-## ***GET*** 
+## Retrieve details
+### **HTTP Request: /ORG_DETAILS/GET_ORG_DETAILS** 
 
-**Summary:** Get Org Details
-
-### HTTP Request 
-`***GET*** /org_details/get_org_details` 
+**Summary:** This API retrieves the details of an organisation.
 
 **Responses**
 
@@ -1015,13 +1010,10 @@ DOC2 - API
 | ---- | ----------- |
 | 200 | Successful Response |
 
-# /ORG_DETAILS/SET_ORG_PROFILE
-## ***POST*** 
+## Set profile 
+### **HTTP Request: /ORG_DETAILS/SET_ORG_PROFILE** 
 
-**Summary:** Set Org Profile
-
-### HTTP Request 
-`***POST*** /org_details/set_org_profile` 
+**Summary:** This API allows you to set up a profile for an organisation.
 
 **Responses**
 
@@ -1030,13 +1022,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /ORG_DETAILS/GET_ORG_PROFILE
-## ***GET*** 
+## Retrieve Organisation Profile 
+### **HTTP Request: /ORG_DETAILS/GET_ORG_PROFILE** 
 
-**Summary:** Get Org Profile
-
-### HTTP Request 
-`***GET*** /org_details/get_org_profile` 
+**Summary:** This API retrieves the profile of a desired organisation.
 
 **Responses**
 
@@ -1044,13 +1033,10 @@ DOC2 - API
 | ---- | ----------- |
 | 200 | Successful Response |
 
-# /ORG_DETAILS/SET_OCR_SETTINGS
-## ***POST*** 
+## OCR Settings
+### **HTTP Request: /ORG_DETAILS/SET_OCR_SETTINGS** 
 
-**Summary:** Set Ocr Settings
-
-### HTTP Request 
-`***POST*** /org_details/set_ocr_settings` 
+**Summary:** This API allows you to set the specific OCR settings of an organisation.
 
 **Responses**
 
@@ -1059,13 +1045,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /ORG_DETAILS/GET_OCR_SETTINGS
-## ***GET*** 
+## Retrieve OCR Settings
+### **HTTP Request: /ORG_DETAILS/GET_OCR_SETTINGS** 
 
-**Summary:** Get Ocr Settings
-
-### HTTP Request 
-`***GET*** /org_details/get_ocr_settings` 
+**Summary:** This API retrieves the OCR settings of a specific organisation.
 
 **Responses**
 
@@ -1073,13 +1056,10 @@ DOC2 - API
 | ---- | ----------- |
 | 200 | Successful Response |
 
-# /ORG_DETAILS/CHECK_OCR
-## ***POST*** 
+## Check OCR
+### **HTTP Request: /ORG_DETAILS/CHECK_OCR** 
 
-**Summary:** Check Ocr
-
-### HTTP Request 
-`***POST*** /org_details/check_ocr` 
+**Summary:** 
 
 **Responses**
 
