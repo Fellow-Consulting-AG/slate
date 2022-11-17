@@ -986,7 +986,7 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# **ORGANISATION DETAILS
+# **ORGANISATION DETAILS**
 ## Set Details 
 ### **HTTP Request: /ORG_DETAILS/SET_ORG_DETAILS** 
 
