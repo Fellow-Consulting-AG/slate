@@ -832,13 +832,11 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /IMPORT/SUPPLIER_BOD
-## ***POST*** 
+# **IMPORT**
+## Supplier BOD
+### **HTTP Request: /IMPORT/SUPPLIER_BOD** 
 
-**Summary:** Import Supplier Bod
-
-### HTTP Request 
-`***POST*** /import/supplier_bod` 
+**Summary:** This API imports a supplier BOD.
 
 **Responses**
 
@@ -847,7 +845,6 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# **IMPORT**
 ## Supplier BOD XML
 ### **HTTP Request: /IMPORT/SUPPLIER_BOD_XML** 
 
