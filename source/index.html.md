@@ -481,7 +481,7 @@ DOC2 - API
 | 200 | Successful Response |
 
 ## Retrieve user groups and permissions
-### HTTP Request: /group_permission/get_user_groups_and_permissions 
+### **HTTP Request: /group_permission/get_user_groups_and_permissions** 
 
 **Summary:** This API retrieves the groups a specific user belongs too and the permissions that are neabled for these groups.
 
@@ -491,13 +491,11 @@ DOC2 - API
 | ---- | ----------- |
 | 200 | Successful Response |
 
-# /SUB_ORGANISATIONS/GET_SUB_ORGANISATIONS
-## ***GET*** 
+# SUB ORGANISATIONS
+## Retrieve sub organisations 
+### **HTTP Request: /sub_organisations/get_sub_organisations**
 
-**Summary:** Get Sub Organisations
-
-### HTTP Request 
-`***GET*** /sub_organisations/get_sub_organisations` 
+**Summary:** This API retrieves a list of all the sub organizations on the system.
 
 **Responses**
 
@@ -505,13 +503,10 @@ DOC2 - API
 | ---- | ----------- |
 | 200 | Successful Response |
 
-# /SUB_ORGANISATIONS/CREATE
-## ***POST*** 
+## Create new sub organisation
+### **HTTP Request: /sub_organisations/create** 
 
-**Summary:** Create Sub Organization
-
-### HTTP Request 
-`***POST*** /sub_organisations/create` 
+**Summary:** This API allows you to create a new sub organisation.
 
 **Responses**
 
@@ -520,13 +515,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /SUB_ORGANISATIONS/DELETE/{SUB_ORG_ID}
-## ***DELETE*** 
+## Delete sub organisation
+### **HTTP Request: /sub_organisations/delete/{sub_org_id}** 
 
-**Summary:** Delete Group
-
-### HTTP Request 
-`***DELETE*** /sub_organisations/delete/{sub_org_id}` 
+**Summary:** This API allows you to delete a sub organisation.
 
 **Parameters**
 
@@ -541,13 +533,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /SUB_ORGANISATIONS/UPDATE/{SUB_ORG_ID}
-## ***PUT*** 
+## Update sub organisation
+### **HTTP Request: /sub_organisations/update/{sub_org_id}** 
 
-**Summary:** Update Group
-
-### HTTP Request 
-`***PUT*** /sub_organisations/update/{sub_org_id}` 
+**Summary:** This API allows you to update or change the information of a sub organisation.
 
 **Parameters**
 
@@ -562,13 +551,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /SUB_ORGANISATION_USER/ADD_USER_TO_SUB_ORGANISATION
-## ***POST*** 
+## Add new user
+### **HTTP Request: /sub_organisation_user/add_user_to_sub_organisation** 
 
-**Summary:** Add User To Sub Organisation
-
-### HTTP Request 
-`***POST*** /sub_organisation_user/add_user_to_sub_organisation` 
+**Summary:** This API allows you to add a new user to a sub organisation.
 
 **Responses**
 
@@ -577,13 +563,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /SUB_ORGANISATION_USER/REMOVE_USER_FROM_SUB_ORGANISATION
-## ***DELETE*** 
+## Remove user
+### **HTTP Request: /sub_organisation_user/remove_user_from_sub_organisation**
 
-**Summary:** Remove User From Sub Organisation
-
-### HTTP Request 
-`***DELETE*** /sub_organisation_user/remove_user_from_sub_organisation` 
+**Summary:** This API allows you to delete a user from a sub organisation.
 
 **Responses**
 
@@ -592,13 +575,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /SUB_ORGANISATION_USER/GET_USER_SUB_ORGANISATIONS
-## ***GET*** 
+## Retrieve users sub organisations 
+### **HTTP Request: /sub_organisation_user/get_user_sub_organisations** 
 
-**Summary:** Get User Sub Organisations
-
-### HTTP Request 
-`***GET*** /sub_organisation_user/get_user_sub_organisations` 
+**Summary:** This API retrieves all the sub organisations where a specific user is added.
 
 **Parameters**
 
@@ -613,13 +593,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /SUB_ORGANISATION_USER/GET_USER_ORGANISATION_AND_SUB_ORGANISATION
-## ***GET*** 
+## Retrieve users organisation and sub organisation
+### **HTTP Request: /sub_organisation_user/get_user_organisation_and_sub_organisation** 
 
-**Summary:** Get User Organisation And Sub Organisation
-
-### HTTP Request 
-`***GET*** /sub_organisation_user/get_user_organisation_and_sub_organisation` 
+**Summary:** This API retrieves the organisation(s) and sub organisation(s) where a specific user is added.
 
 **Responses**
 
@@ -627,13 +604,10 @@ DOC2 - API
 | ---- | ----------- |
 | 200 | Successful Response |
 
-# /SUB_ORGANISATION_USER/GET_SUB_ORGANISATIONS_WITH_USERS
-## ***GET*** 
+## Retrieve sub organisations with specific users 
+### **HTTP Request: /sub_organisation_user/get_sub_organisations_with_users** 
 
-**Summary:** Get User Organisation And Sub Organisation
-
-### HTTP Request 
-`***GET*** /sub_organisation_user/get_sub_organisations_with_users` 
+**Summary:** This API retrieves sub organisations that have certain users added to them.
 
 **Responses**
 
@@ -641,13 +615,10 @@ DOC2 - API
 | ---- | ----------- |
 | 200 | Successful Response |
 
-# /SUB_ORGANISATION_USER/GET_SUB_ORGANISATION_USERS
-## ***GET*** 
+## Retrieve users of a sub organisation 
+### **HTTP Request: /sub_organisation_user/get_sub_organisation_users** 
 
-**Summary:** Get Sub Organisation Users
-
-### HTTP Request 
-`***GET*** /sub_organisation_user/get_sub_organisation_users` 
+**Summary:** This API retrieves a list of all the users added to a specific sub organisation.
 
 **Parameters**
 
