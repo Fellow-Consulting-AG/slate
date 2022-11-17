@@ -1860,13 +1860,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-## /DOCUMENT_LAYOUT_TEMPLATE/CREATE
-## ***POST*** 
+## Create 
+### **HTTP Request: /DOCUMENT_LAYOUT_TEMPLATE/CREATE** 
 
-**Summary:** Create Layout Templates
-
-### HTTP Request 
-`***POST*** /document_layout_template/create` 
+**Summary:** This API allows you to create a layout emplate for a document.
 
 **Responses**
 
@@ -1875,13 +1872,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT_LAYOUT_TEMPLATE/{ID}
-## ***GET*** 
+## Retrieve Layout Template 
+### **HTTP Request: /DOCUMENT_LAYOUT_TEMPLATE/{ID}** 
 
-**Summary:** Get Layout Templates
-
-### HTTP Request 
-`***GET*** /document_layout_template/{id}` 
+**Summary:** This API retrieves a specific layout template using the ID associated with the layout template.
 
 **Parameters**
 
@@ -1896,12 +1890,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-## ***PUT*** 
+## Update Layout Template
+### **HTTP Request: /DOCUMENT_LAYOUT_TEMPLATE/{ID}** 
 
-**Summary:** Update Layout Templates
-
-### HTTP Request 
-`***PUT*** /document_layout_template/{id}` 
+**Summary:** This API allows you to update a layout template for a document.
 
 **Parameters**
 
@@ -1916,12 +1908,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-## ***DELETE*** 
+## Delete Layout template 
+### **HTTP Request: /DOCUMENT_LAYOUT_TEMPLATE/{ID}** 
 
-**Summary:** Delete Layout Templates
-
-### HTTP Request 
-`***DELETE*** /document_layout_template/{id}` 
+**Summary:** This API allows you to delete a specific layout template.
 
 **Parameters**
 
@@ -1936,13 +1926,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT_LAYOUT_TEMPLATE/UPLOAD_TEMPLATE_SAMPLE
-## ***POST*** 
+## Upload Template Sample 
+### **HTTP Request: /DOCUMENT_LAYOUT_TEMPLATE/UPLOAD_TEMPLATE_SAMPLE** 
 
-**Summary:** Upload Template Sample
-
-### HTTP Request 
-`***POST*** /document_layout_template/upload_template_sample` 
+**Summary:** This API allows you to upload a sample template. 
 
 **Responses**
 
