@@ -413,8 +413,9 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /GROUPS_AND_USERS/ADD_USER_TO_GROUP
-## ***POST*** 
+# **GROUPS AND USERS**
+## Add user to a group
+### **/groups_and_users/add_user_to_group**
 
 **Summary:** This API allows you to add a specific user to a group.
 
@@ -428,8 +429,8 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /GROUPS_AND_USERS/ADD_USERS_TO_GROUP
-## ***POST*** 
+## Add mltiple users to a group
+### **/groups_and_users/add_users_to_group** 
 
 **Summary:** This API allows you to add multiple users to a group.
 
@@ -443,8 +444,8 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /GROUPS_AND_USERS/REMOVE_USER_FROM_GROUP
-## ***DELETE*** 
+## Remove user from a group
+### **/groups_and_users/remove_user_from_group** 
 
 **Summary:** This API allows you to remove a specific user from a group.
 
@@ -458,8 +459,8 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /GROUPS_AND_USERS/GET_GROUP_USERS
-## ***GET*** 
+## Retrieve users from a group 
+### **/groups_and_users/get_group_users** 
 
 **Summary:** This API allows you to retrieve the users from a specific group.
 
