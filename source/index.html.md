@@ -633,13 +633,11 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /CONFIGURATIONS/CONFIGURE_WEBHOOK_EXPORT
-## ***POST*** 
+# **CONFIGURATIONS**
+## Webhook Export
+### **HTTP Request: /CONFIGURE_WEBHOOK_EXPORT**
 
-**Summary:** Webhook Configurations
-
-### HTTP Request 
-`***POST*** /configurations/configure_webhook_export` 
+**Summary:** Allows you to configure a URL where a document will be exported too.
 
 **Responses**
 
@@ -648,13 +646,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /CONFIGURATIONS/CONFIGURE_FLOW2_EXPORT
-## ***POST*** 
+## Flow² Export
+### **HTTP Request: /CONFIGURATIONS/CONFIGURE_FLOW2_EXPORT**
 
-**Summary:** Flow2 Configurations
-
-### HTTP Request 
-`***POST*** /configurations/configure_flow2_export` 
+**Summary:** Configure export for Flow².
 
 **Responses**
 
@@ -663,13 +658,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /CONFIGURATIONS/CONFIGURE_ZUGFERD_EXPORT
-## ***POST*** 
+## Zugferd Export
+### **HTTP Request: /CONFIGURATIONS/CONFIGURE_ZUGFERD_EXPORT** 
 
-**Summary:** Zugferd Configuration
-
-### HTTP Request 
-`***POST*** /configurations/configure_zugferd_export` 
+**Summary:** Configure export for Zugferd.
 
 **Responses**
 
@@ -678,13 +670,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /CONFIGURATIONS/CONFIGURE_PEPPOL_EXPORT
-## ***POST*** 
+## Peppol Export 
+### **HTTP Request: /CONFIGURATIONS/CONFIGURE_PEPPOL_EXPORT** 
 
-**Summary:** Peppol Configuration
-
-### HTTP Request 
-`***POST*** /configurations/configure_peppol_export` 
+**Summary:** Configure export for Peppol.
 
 **Responses**
 
@@ -693,13 +682,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /CONFIGURATIONS/CONFIGURE_IDM_EXPORT
-## ***POST*** 
+## IDM Export
+### **HTTP Request: /CONFIGURATIONS/CONFIGURE_IDM_EXPORT** 
 
-**Summary:** Idm Export Configurations
-
-### HTTP Request 
-`***POST*** /configurations/configure_idm_export` 
+**Summary:** Configure export for IDM.
 
 **Responses**
 
@@ -708,13 +694,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /CONFIGURATIONS/CONFIGURE_BOD_EXPORT
-## ***POST*** 
+## BOD Export 
+### **HTTP Request: /CONFIGURATIONS/CONFIGURE_BOD_EXPORT** 
 
-**Summary:** Bod Export Configurations
-
-### HTTP Request 
-`***POST*** /configurations/configure_bod_export` 
+**Summary:** Configure export for BOD.
 
 **Responses**
 
@@ -723,13 +706,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /CONFIGURATIONS/CONFIGURE_ION_EXPORT
-## ***POST*** 
+## ION Export
+### **HTTP Request: /CONFIGURATIONS/CONFIGURE_ION_EXPORT** 
 
-**Summary:** Ion Export Configurations
-
-### HTTP Request 
-`***POST*** /configurations/configure_ion_export` 
+**Summary:**  Configure export for ION.
 
 **Responses**
 
@@ -738,13 +718,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /CONFIGURATIONS/CONFIGURE_INFOR_EXPORT
-## ***POST*** 
+## INFOR Export
+### **HTTP Requet: /CONFIGURATIONS/CONFIGURE_INFOR_EXPORT** 
 
-**Summary:** Infor Export Configurations
-
-### HTTP Request 
-`***POST*** /configurations/configure_infor_export` 
+**Summary:** Configure export for INFOR.
 
 **Responses**
 
@@ -753,12 +730,12 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /CONFIGURATIONS/GET_CONFIGURATION
-## ***POST*** 
+## Retrieve Configuration
+### **HTTP Request: /CONFIGURATIONS/GET_CONFIGURATION** 
 
-**Summary:** Get Configurations
+**Summary:** This API retrieves the oldest configuration of an organisation.
 
-### HTTP Request 
+###  
 `***POST*** /configurations/get_configuration` 
 
 **Responses**
@@ -767,13 +744,10 @@ DOC2 - API
 | ---- | ----------- |
 | 200 | Successful Response |
 
-# /CONFIGURATIONS/GET_CONFIGURATIONS
-## ***POST*** 
+## Retrieve Configurations
+### **HTTP Request: /CONFIGURATIONS/GET_CONFIGURATIONS** 
 
-**Summary:** Get Export Configurations
-
-### HTTP Request 
-`***POST*** /configurations/get_configurations` 
+**Summary:** This API retrieves all configurations of an organisation.
 
 **Responses**
 
@@ -781,13 +755,10 @@ DOC2 - API
 | ---- | ----------- |
 | 200 | Successful Response |
 
-# /CONFIGURATIONS/REMOVE_CONFIGURATION
-## ***POST*** 
+## Remove configuration
+### **HTTP Request: /CONFIGURATIONS/REMOVE_CONFIGURATION** 
 
-**Summary:** Remove Configuration
-
-### HTTP Request 
-`***POST*** /configurations/remove_configuration` 
+**Summary:** This API allows you to remove a configuration.
 
 **Responses**
 
@@ -796,13 +767,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /CONFIGURATIONS/UPDATE_CONFIGURATION_VISIBILITY
-## ***POST*** 
+## Update Visibility
+### **HTTP Request: /CONFIGURATIONS/UPDATE_CONFIGURATION_VISIBILITY** 
 
-**Summary:** Update Configuration Visibility
-
-### HTTP Request 
-`***POST*** /configurations/update_configuration_visibility` 
+**Summary:** Activate or deactivate a configuration.
 
 **Responses**
 
@@ -811,13 +779,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /CONFIGURATIONS/VALIDATE_EXPORT_CONFIGURATION
-## ***POST*** 
+## Validation
+### **HTTP Request: /CONFIGURATIONS/VALIDATE_EXPORT_CONFIGURATION** 
 
-**Summary:** Validate Export Configurations
-
-### HTTP Request 
-`***POST*** /configurations/validate_export_configuration` 
+**Summary:** Validate export Ccnfigurations.
 
 **Responses**
 
@@ -826,13 +791,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /CONFIGURATIONS/DOCUMENT_TYPES
-## ***GET*** 
+## Document Types
+### **HTTP Request: /CONFIGURATIONS/DOCUMENT_TYPES** 
 
-**Summary:** Get Document Types
-
-### HTTP Request 
-`***GET*** /configurations/document_types` 
+**Summary:** Retrieves a list of each document type name.
 
 **Responses**
 
@@ -840,13 +802,10 @@ DOC2 - API
 | ---- | ----------- |
 | 200 | Successful Response |
 
-# /CONFIGURATIONS/DOCUMENT_TYPES_LIST
-## ***GET*** 
+## Document types list
+### **HTTP Request: /CONFIGURATIONS/DOCUMENT_TYPES_LIST** 
 
-**Summary:** Get Document Types List
-
-### HTTP Request 
-`***GET*** /configurations/document_types_list` 
+**Summary:** Retrieves a list of all document types and additional information.
 
 **Responses**
 
@@ -854,13 +813,10 @@ DOC2 - API
 | ---- | ----------- |
 | 200 | Successful Response |
 
-# /CONFIGURATIONS/DOWNLOAD/{ID}
-## ***GET*** 
+## Download 
+### **HTTP Request: /CONFIGURATIONS/DOWNLOAD/{ID}** 
 
-**Summary:** Downlod File
-
-### HTTP Request 
-`***GET*** /configurations/download/{id}` 
+**Summary:** Allows you to download mapping files for specific configurations.
 
 **Parameters**
 
