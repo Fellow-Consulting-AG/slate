@@ -1250,14 +1250,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /VENDORS/IMPORT_VENDORS_CSV
-## ***POST*** 
+## Import Vendor CSV 
+### **HTTP Request: /VENDORS/IMPORT_VENDORS_CSV** 
 
-**Summary:** Import Vendors Csv
-
-### HTTP Request 
-`***POST*** /vendors/import_vendors_csv` 
-
+**Summary:** This API imports a CSV file of a specific vendor.
 **Responses**
 
 | Code | Description |
