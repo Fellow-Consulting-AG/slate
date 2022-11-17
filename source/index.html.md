@@ -905,13 +905,11 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /EMAIL/GET_EMAIL
-## ***GET*** 
+# **EMAIL**
+## Retrieve Email
+### **HTTP Request: /EMAIL/GET_EMAIL** 
 
-**Summary:** Get Email
-
-### HTTP Request 
-`***GET*** /email/get_email` 
+**Summary:** This API retrieves a configured email address and all information associated with it. 
 
 **Responses**
 
@@ -919,42 +917,10 @@ DOC2 - API
 | ---- | ----------- |
 | 200 | Successful Response |
 
-# /EMAIL/ADD_UPDATE_EMAIL
-## ***POST*** 
+## Add Email
+### **HTTP Request: /EMAIL/ADD_UPDATE_EMAIL** 
 
-**Summary:** Add Update Email
-
-### HTTP Request 
-`***POST*** /email/add_update_email` 
-
-**Responses**
-
-| Code | Description |
-| ---- | ----------- |
-| 200 | Successful Response |
-| 422 | Validation Error |
-
-# /EMAIL/DELETE_EMAIL
-## ***DELETE*** 
-
-**Summary:** Delete Email
-
-### HTTP Request 
-`***DELETE*** /email/delete_email` 
-
-**Responses**
-
-| Code | Description |
-| ---- | ----------- |
-| 200 | Successful Response |
-
-# /EMAIL/(DE)-ACTIVATE_EMAIL
-## ***POST*** 
-
-**Summary:** Switch Email
-
-### HTTP Request 
-`***POST*** /email/(de)-activate_email` 
+**Summary:** This API allows you to configure a new email address to the system.
 
 **Responses**
 
@@ -963,13 +929,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /EMAIL/FETCH_EMAILS
-## ***GET*** 
+## Delete Email
+### **HTTP Request: /EMAIL/DELETE_EMAIL** 
 
-**Summary:** Fetch Emails
-
-### HTTP Request 
-`***GET*** /email/fetch_emails` 
+**Summary:** This API allows you to delete an email address from the system.
 
 **Responses**
 
@@ -977,13 +940,22 @@ DOC2 - API
 | ---- | ----------- |
 | 200 | Successful Response |
 
-# /EMAIL/GET_IMPORT_LOG
-## ***GET*** 
+## Deactivate Email
+### **HTTP Request: /EMAIL/(DE)-ACTIVATE_EMAIL** 
 
-**Summary:** Get Log
+**Summary:** This API allows you to deactivate a current email address so that it can be replaced by a new one.
 
-### HTTP Request 
-`***GET*** /email/get_import_log` 
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | Successful Response |
+| 422 | Validation Error |
+
+## Retrieve 
+### **HTTP Request: /EMAIL/FETCH_EMAILS** 
+
+**Summary:** Imports PDF attachments sent to a specific configured email address.
 
 **Responses**
 
@@ -991,13 +963,21 @@ DOC2 - API
 | ---- | ----------- |
 | 200 | Successful Response |
 
-# /EMAIL/CHECK_LOGIN
-## ***POST*** 
+## Import Log
+### **HTTP Request: /EMAIL/GET_IMPORT_LOG** 
 
-**Summary:** Check Login
+**Summary:** Retrieves the log of email imported documents.
 
-### HTTP Request 
-`***POST*** /email/check_login` 
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | Successful Response |
+
+## Check login 
+### **HTTP Request: /EMAIL/CHECK_LOGIN** 
+
+**Summary:** This API checks if the email credentials are valid and can be used to log in.
 
 **Responses**
 
