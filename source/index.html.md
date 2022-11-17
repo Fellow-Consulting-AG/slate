@@ -491,7 +491,7 @@ DOC2 - API
 | ---- | ----------- |
 | 200 | Successful Response |
 
-# SUB ORGANISATIONS
+# **SUB ORGANISATIONS**
 ## Retrieve sub organisations 
 ### **HTTP Request: /sub_organisations/get_sub_organisations**
 
