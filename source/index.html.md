@@ -458,7 +458,7 @@ DOC2 - API
 | 422 | Validation Error |
 
 ## Retrieve permissions of a group 
-## **HTTP Request: /group_permission/get_group_permissions** 
+### **HTTP Request: /group_permission/get_group_permissions** 
 
 **Summary:** This API retrieves the permissions a group has enabled.
 
@@ -470,7 +470,7 @@ DOC2 - API
 | 422 | Validation Error |
 
 ## Get permissions of all groups
-## **HTTP Request: /group_permission/get_all_group_permissions**
+### **HTTP Request: /group_permission/get_all_group_permissions**
 
 **Summary:** This API retireves all the permissions each group has enabled.
 
