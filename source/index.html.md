@@ -390,7 +390,7 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-## Add mltiple users to a group
+## Add multiple users to a group
 ### **HTTP Request: /groups_and_users/add_users_to_group** 
 
 **Summary:** This API allows you to add multiple users to a group.
