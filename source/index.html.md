@@ -2048,13 +2048,11 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /BLOCK_TABLE_EXTRACTION/BLOCKED_LIST
-## ***GET*** 
+# **BLOCK TABLE EXTRACTION** 
+## Blocked List
+### **HTTP Request: /BLOCK_TABLE_EXTRACTION/BLOCKED_LIST** 
 
-**Summary:** Blocked List
-
-### HTTP Request 
-`***GET*** /block_table_extraction/blocked_list` 
+**Summary:** This API 
 
 **Responses**
 
@@ -2062,13 +2060,10 @@ DOC2 - API
 | ---- | ----------- |
 | 200 | Successful Response |
 
-# /BLOCK_TABLE_EXTRACTION/BLOCKED_LIST/ADD
-## ***POST*** 
+## Blocked List - Add 
+### **HTTP Request: /BLOCK_TABLE_EXTRACTION/BLOCKED_LIST/ADD** 
 
-**Summary:** Blocked List Add
-
-### HTTP Request 
-`***POST*** /block_table_extraction/blocked_list/add` 
+**Summary:** This API
 
 **Responses**
 
@@ -2077,13 +2072,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /BLOCK_TABLE_EXTRACTION/BLOCKED_LIST/{ID}
-## ***DELETE*** 
+## Blocked List - Delete 
+### **HTTP Request: /BLOCK_TABLE_EXTRACTION/BLOCKED_LIST/{ID}** 
 
-**Summary:** Delete From Blocked List
-
-### HTTP Request 
-`***DELETE*** /block_table_extraction/blocked_list/{id}` 
+**Summary:** This API 
 
 **Parameters**
 
