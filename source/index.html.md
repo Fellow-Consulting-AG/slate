@@ -999,7 +999,7 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-## Retrieve details
+## Retrieve Details
 ### **HTTP Request: /ORG_DETAILS/GET_ORG_DETAILS** 
 
 **Summary:** This API retrieves the details of an organisation.
@@ -1010,7 +1010,7 @@ DOC2 - API
 | ---- | ----------- |
 | 200 | Successful Response |
 
-## Set profile 
+## Set Profile 
 ### **HTTP Request: /ORG_DETAILS/SET_ORG_PROFILE** 
 
 **Summary:** This API allows you to set up a profile for an organisation.
