@@ -1938,13 +1938,11 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT_LOCK/ACQUIRE_LOCK
-## ***POST*** 
+# **DOCUMENT LOCK**
+## Acquire Lock 
+### **HTTP Request: /DOCUMENT_LOCK/ACQUIRE_LOCK** 
 
-**Summary:** Acquire Lock
-
-### HTTP Request 
-`***POST*** /document_lock/acquire_lock` 
+**Summary:** This API 
 
 **Responses**
 
@@ -1953,13 +1951,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT_LOCK/RELEASE_LOCK
-## ***POST*** 
+## Release Lock
+### **HTTP Request: /DOCUMENT_LOCK/RELEASE_LOCK** 
 
-**Summary:** Release Lock
-
-### HTTP Request 
-`***POST*** /document_lock/release_lock` 
+**Summary:**  
 
 **Responses**
 
@@ -1968,13 +1963,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT_LOCK/RENEW_LOCK
-## ***POST*** 
+## Renew Lock 
+### **HTTP Request: /DOCUMENT_LOCK/RENEW_LOCK** 
 
-**Summary:** Renew Lock
-
-### HTTP Request 
-`***POST*** /document_lock/renew_lock` 
+**Summary:** This API
 
 **Responses**
 
