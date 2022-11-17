@@ -1194,13 +1194,11 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /FUZZY/GET_VENDORS_LIST
-## ***POST*** 
+# **FUZZY**
+## Retrieve Vendor List 
+### **HTTP Request: /FUZZY/GET_VENDORS_LIST** 
 
-**Summary:** Get Vendors List
-
-### HTTP Request 
-`***POST*** /fuzzy/get_vendors_list` 
+**Summary:** This API retrieves a list of all the vendors of an organisation.
 
 **Parameters**
 
@@ -1218,13 +1216,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /FUZZY/IMPORT_VENDORS_CSV
-## ***POST*** 
+## Import Vendor CSV 
+### **HTTP Request: /FUZZY/IMPORT_VENDORS_CSV** 
 
-**Summary:** Import Vendors Csv
-
-### HTTP Request 
-`***POST*** /fuzzy/import_vendors_csv` 
+**Summary:** This API imports the data of a vendor CSV file.
 
 **Responses**
 
@@ -1233,13 +1228,11 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /VENDORS/GET_VENDORS_LIST
-## ***GET*** 
+# **VENDORS**
+## Retrieve Vendors List 
+### **HTTP Request: /VENDORS/GET_VENDORS_LIST** 
 
-**Summary:** Get Vendors List
-
-### HTTP Request 
-`***GET*** /vendors/get_vendors_list` 
+**Summary:** This API retrieves a list of all an organisations vendors.
 
 **Parameters**
 
