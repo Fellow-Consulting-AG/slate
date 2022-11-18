@@ -3379,57 +3379,6 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DB/EXPORT
-## ***POST*** 
-
-**Summary:** Db Export
-
-### HTTP Request 
-`***POST*** /db/export` 
-
-**Parameters**
-
-| Name | Located in | Description | Required | Type |
-| ---- | ---------- | ----------- | -------- | ---- |
-| as_file | query |  | No |  |
-
-**Responses**
-
-| Code | Description |
-| ---- | ----------- |
-| 200 | Successful Response |
-| 422 | Validation Error |
-
-# /DB/IMPORT
-## ***POST*** 
-
-**Summary:** Db Import
-
-### HTTP Request 
-`***POST*** /db/import` 
-
-**Responses**
-
-| Code | Description |
-| ---- | ----------- |
-| 200 | Successful Response |
-| 422 | Validation Error |
-
-# /DB/FILE_IMPORT/
-## ***POST*** 
-
-**Summary:** Db File Import
-
-### HTTP Request 
-`***POST*** /db/file_import/` 
-
-**Responses**
-
-| Code | Description |
-| ---- | ----------- |
-| 200 | Successful Response |
-| 422 | Validation Error |
-
 # /DOCUMENT_TRAINER/ADD_SAMPLE_DOCUMENT
 ## ***POST*** 
 
