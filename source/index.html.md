@@ -3922,13 +3922,11 @@ Returns:
 | ---- | ----------- |
 | 200 | Successful Response |
 
-# /FLOW/GET_DOCUMENT_FLOW/{DOC_ID}
-## ***GET*** 
+# **FLOW**
+## Retrieve Specific Document Flow 
+### **HTTP Request: /FLOW/GET_DOCUMENT_FLOW/{DOC_ID}** 
 
-**Summary:** Documents Status
-
-### HTTP Request 
-`***GET*** /flow/get_document_flow/{doc_id}` 
+**Summary:** This API retrieves a specific document flow.
 
 **Parameters**
 
@@ -3943,13 +3941,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /FLOW/TEST_FLOW/{DOC_ID}
-## ***GET*** 
+## Test Specific Flow
+## **HTTP Request: /FLOW/TEST_FLOW/{DOC_ID}** 
 
-**Summary:** Test Flow
-
-### HTTP Request 
-`***GET*** /flow/test_flow/{doc_id}` 
+**Summary:** This API allows you to test a specific document flow.
 
 **Parameters**
 
