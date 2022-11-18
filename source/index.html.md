@@ -3959,13 +3959,11 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /MASTER_DATA_LOOKUP/GET_DATASET_TYPES
-## ***GET*** 
+# **MASTER DATA LOOKUP**
+## Retrieve Data Set Types
+### **HTTP Request: /MASTER_DATA_LOOKUP/GET_DATASET_TYPES** 
 
-**Summary:** Get Dataset Types
-
-### HTTP Request 
-`***GET*** /master_data_lookup/get_dataset_types` 
+**Summary:** This API retrieves a list of the data set types.
 
 **Responses**
 
@@ -3973,13 +3971,10 @@ Returns:
 | ---- | ----------- |
 | 200 | Successful Response |
 
-# /MASTER_DATA_LOOKUP/GET_DATASET_FIELDS
-## ***GET*** 
+## Retrieve Data Set Fields 
+### **HTTP Request: /MASTER_DATA_LOOKUP/GET_DATASET_FIELDS** 
 
-**Summary:** Get Dataset Types
-
-### HTTP Request 
-`***GET*** /master_data_lookup/get_dataset_fields` 
+**Summary:** This API retrieves a list of the data set fields.
 
 **Parameters**
 
@@ -3994,13 +3989,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /MASTER_DATA_LOOKUP/GET_DATA
-## ***GET*** 
+## Retrieve Data 
+### **HTTP Request: /MASTER_DATA_LOOKUP/GET_DATA** 
 
-**Summary:** Get Data
-
-### HTTP Request 
-`***GET*** /master_data_lookup/get_data` 
+**Summary:** This API retrieves data according to the data set type.
 
 **Parameters**
 
@@ -4016,13 +4008,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /MASTER_DATA_LOOKUP/DOWNLOAD_CSV
-## ***GET*** 
+## Download CSV File 
+### **HTTP Request: /MASTER_DATA_LOOKUP/DOWNLOAD_CSV** 
 
-**Summary:** Get Data
-
-### HTTP Request 
-`***GET*** /master_data_lookup/download_csv` 
+**Summary:** This API allows you to download a CSV file.
 
 **Parameters**
 
@@ -4038,13 +4027,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /MASTER_DATA_LOOKUP/CREATE_RECORDS
-## ***POST*** 
+## Create Records 
+### **HTTP Request: /MASTER_DATA_LOOKUP/CREATE_RECORDS** 
 
-**Summary:** Create Records
-
-### HTTP Request 
-`***POST*** /master_data_lookup/create_records` 
+**Summary:** This APi allows you to create a new master data record.
 
 **Responses**
 
@@ -4053,13 +4039,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /MASTER_DATA_LOOKUP/UPDATE_RECORD
-## ***POST*** 
+## Update Record 
+### **HTTP Request: /MASTER_DATA_LOOKUP/UPDATE_RECORD** 
 
-**Summary:** Update Record
-
-### HTTP Request 
-`***POST*** /master_data_lookup/update_record` 
+**Summary:** This API allows you to update or change an existing master data record.
 
 **Responses**
 
@@ -4068,13 +4051,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /MASTER_DATA_LOOKUP/DELETE_RECORD
-## ***POST*** 
+## Delete Record 
+### **HTTP Request: /MASTER_DATA_LOOKUP/DELETE_RECORD** 
 
-**Summary:** Delete Record
-
-### HTTP Request 
-`***POST*** /master_data_lookup/delete_record` 
+**Summary:** This API allows you to delete a master data record.
 
 **Responses**
 
@@ -4083,13 +4063,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /MASTER_DATA_LOOKUP/IMPORT_DATA
-## ***POST*** 
+## Import Data 
+### **HTTP Request: /MASTER_DATA_LOOKUP/IMPORT_DATA** 
 
-**Summary:** Import Data
-
-### HTTP Request 
-`***POST*** /master_data_lookup/import_data` 
+**Summary:** This API allows you to import a CSV file.
 
 **Responses**
 
@@ -4098,19 +4075,6 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /HEALTHZ
-## ***GET*** 
-
-**Summary:** This API checks to see if the system is online.
-
-### HTTP Request 
-`***GET*** /healthz` 
-
-**Responses**
-
-| Code | Description |
-| ---- | ----------- |
-| 200 | Successful Response |
 
 
 
