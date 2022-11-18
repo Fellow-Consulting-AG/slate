@@ -1057,7 +1057,7 @@ DOC2 - API
 ## Zugferd
 ### **HTTP Request: /EXPORT_ZUGFERD** 
 
-**Summary:** 
+**Summary:** This API transforms an invoice into Zugferd format.
 
 **Parameters**
 
@@ -1076,7 +1076,7 @@ DOC2 - API
 ## Peppol 
 ### **HTTP Request: /EXPORT/EXPORT_PEPPOL** 
 
-**Summary:** 
+**Summary:** This API transforms an invoice into Peppol format.
 
 **Parameters**
 
