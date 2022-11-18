@@ -3234,13 +3234,11 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DATA_VAULT/CREATE_RECORD
-## ***POST*** 
+# **DATA VAULT**
+## Create a Record 
+### **HTTP Request: /DATA_VAULT/CREATE_RECORD** 
 
-**Summary:** Create Document Type
-
-### HTTP Request 
-`***POST*** /data_vault/create_record` 
+**Summary:** 
 
 **Responses**
 
