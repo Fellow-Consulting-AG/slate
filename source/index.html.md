@@ -1053,18 +1053,6 @@ DOC2 - API
 | ---- | ----------- |
 | 200 | Successful Response |
 
-## Check OCR
-### **HTTP Request: /ORG_DETAILS/CHECK_OCR** 
-
-**Summary:** 
-
-**Responses**
-
-| Code | Description |
-| ---- | ----------- |
-| 200 | Successful Response |
-| 422 | Validation Error |
-
 # **EXPORT** 
 ## Zugferd
 ### **HTTP Request: /EXPORT_ZUGFERD** 
