@@ -3735,13 +3735,11 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-##  /CUSTOM_MODEL_LABEL/LIST
-## ***GET*** 
+# **CUSTOM MODEL LABEL**
+## Retrieve Custom Model Label List 
+### **HTTP Request: /CUSTOM_MODEL_LABEL/LIST** 
 
-**Summary:** Get List
-
-### HTTP Request 
-`***GET*** /custom_model_label/list` 
+**Summary:** This API retrieves a list of all custom model labels.
 
 **Parameters**
 
@@ -3756,13 +3754,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /CUSTOM_MODEL_LABEL/CREATE
-## ***POST*** 
+## Create Custom Model Label 
+### **HTTP Request: /CUSTOM_MODEL_LABEL/CREATE** 
 
-**Summary:** Create Layout Templates
-
-### HTTP Request 
-`***POST*** /custom_model_label/create` 
+**Summary:** This API allows you to create a custom model label.
 
 **Parameters**
 
@@ -3784,13 +3779,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /CUSTOM_MODEL_LABEL/{ID}
-## ***GET*** 
+## Retrieve Specific Custom Model Label 
+### **HTTP Request: /CUSTOM_MODEL_LABEL/{ID}** 
 
-**Summary:** Get Model
-
-### HTTP Request 
-`***GET*** /custom_model_label/{id}` 
+**Summary:** This API retrieves a specific custom model label according to its ID.
 
 **Parameters**
 
@@ -3805,12 +3797,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-## ***PUT*** 
+## Update Custom Model Label 
+### **HTTP Request: /CUSTOM_MODEL_LABEL/{ID}** 
 
-**Summary:** Update Model
-
-### HTTP Request 
-`***PUT*** /custom_model_label/{id}` 
+**Summary:** This API lets you update or change an existing custom model label.
 
 **Parameters**
 
@@ -3833,12 +3823,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-## ***DELETE*** 
+## Delete Custom Model Label 
+### **HTTP Request: /CUSTOM_MODEL_LABEL/{ID}** 
 
-**Summary:** Delete Model
-
-### HTTP Request 
-`***DELETE*** /custom_model_label/{id}` 
+**Summary:** This API lets you delete a custom model label.
 
 **Parameters**
 
