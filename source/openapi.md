@@ -2769,7 +2769,7 @@ DOC2 - API
 # /PREFERENCES/GET_PREFERENCES
 ## ***GET*** 
 
-**Summary:** Get Preferences
+**Summary:** This API retrieves a list of settings that can be activated or deactivated.
 
 ### HTTP Request 
 `***GET*** /preferences/get_preferences` 
