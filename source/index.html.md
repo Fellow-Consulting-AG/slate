@@ -1355,7 +1355,7 @@ DOC2 - API
 ## Process 
 ### **HTTP Request: /DOCUMENT/PROCESS** 
 
-**Summary:** 
+**Summary:** This API allows you to process one document.
 
 **Responses**
 
@@ -1367,7 +1367,7 @@ DOC2 - API
 ## Process Base64 
 ### **HTTP Request: /DOCUMENT/PROCESS_BASE64** 
 
-**Summary:** 
+**Summary:** This API processes an base64 encoded document.
 
 **Responses**
 
@@ -1454,7 +1454,7 @@ DOC2 - API
 ## Dashboard 
 ### **HTTP Request: /DOCUMENT/DASHBOARD** 
 
-**Summary:** 
+**Summary:** This API retrieves general document information from recent documents.
 
 **Parameters**
 
@@ -1492,7 +1492,7 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-## Retrieve Items from Dictionary 
+<!-- ## Retrieve Items from Dictionary 
 ### **HTTP Request: /DOCUMENT/GET_ITEMS_FROM_DICTIONARY/{ITEM}** 
 
 **Summary:** This API retrieves items from dictionary.
@@ -1508,7 +1508,7 @@ DOC2 - API
 | Code | Description |
 | ---- | ----------- |
 | 200 | Successful Response |
-| 422 | Validation Error |
+| 422 | Validation Error | -->
 
 ## Restart 
 ### **HTTP Request: /DOCUMENT/RESTART/{DOC_ID}** 
@@ -1598,7 +1598,7 @@ DOC2 - API
 ## Restart with New Classification 
 ### *HTTP Request: /DOCUMENT/RESTART_WITH_NEW_CLASSIFICATION/{DOC_ID}** 
 
-**Summary:** 
+**Summary:** This API restarts a document to be classified as a specific document type.
 
 **Parameters**
 
@@ -1685,7 +1685,7 @@ DOC2 - API
 ## Assign Specific Document 
 ### **HTTP Request: /DOCUMENT/ASSIGN/{DOC_ID}** 
 
-**Summary:** 
+**Summary:** This API assigns a document to a user for further tasks, eg. classification.
 
 **Parameters**
 
@@ -1703,7 +1703,7 @@ DOC2 - API
 ## Assign Documents
 ### **HTTP Request: /DOCUMENT/ASSIGN_DOCUMENTS** 
 
-**Summary:** 
+**Summary:** This API assigns multiple documents to a user for further tasks, eg. classification.
 
 **Responses**
 
@@ -1715,7 +1715,7 @@ DOC2 - API
 ## Assign with Email 
 ### **HTTP Request: /DOCUMENT/ASSIGN_WITH_EMAIL/{DOC_ID}** 
 
-**Summary:** Assign With Email
+**Summary:** This API assigns a document to a users email address for further tasks, eg. classification.
 
 **Parameters**
 
@@ -1914,7 +1914,7 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# **DOCUMENT LOCK**
+<!-- # **DOCUMENT LOCK**
 ## Acquire Lock 
 ### **HTTP Request: /DOCUMENT_LOCK/ACQUIRE_LOCK** 
 
@@ -1949,7 +1949,7 @@ DOC2 - API
 | Code | Description |
 | ---- | ----------- |
 | 200 | Successful Response |
-| 422 | Validation Error |
+| 422 | Validation Error | -->
 
 # **TABLE EXTRACTION V3**
 ## Auto Extract Table 
@@ -2028,7 +2028,7 @@ DOC2 - API
 ## Blocked List
 ### **HTTP Request: /BLOCK_TABLE_EXTRACTION/BLOCKED_LIST** 
 
-**Summary:** This API 
+**Summary:** This API retrieves a list of blocked suppliers.
 
 **Responses**
 
@@ -2039,7 +2039,7 @@ DOC2 - API
 ## Blocked List - Add 
 ### **HTTP Request: /BLOCK_TABLE_EXTRACTION/BLOCKED_LIST/ADD** 
 
-**Summary:** This API
+**Summary:** This API allows you to add a blocked supplier.
 
 **Responses**
 
@@ -2407,17 +2407,17 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-## Retrieve Table from PO Numbers
+<!-- ## Retrieve Table from PO Numbers
 ### **HTTP Request: /PURCHASE_ORDER/GET_TABLE_FROM_PO_NUMBERS** 
 
-**Summary:** This API retreves a table 
+**Summary:** This API retrieves a table 
 
 **Responses**
 
 | Code | Description |
 | ---- | ----------- |
 | 200 | Successful Response |
-| 422 | Validation Error |
+| 422 | Validation Error | -->
 
 ## Auto PO Match 
 ### **HTTP Request: /PURCHASE_ORDER/AUTO_PO_MATCH** 
@@ -2448,36 +2448,18 @@ DOC2 - API
 ## Retrieve Preferences 
 ### **HTTP Request: /PREFERENCES/GET_PREFERENCES** 
 
-**Summary:** This API retrieves the preferences
+**Summary:** This API retrieves a list of settings that can be activated and deactivated.
 
 **Responses**
 
 | Code | Description |
 | ---- | ----------- |
 | 200 | Successful Response |
-
-## Retrieve Preference 
-### **HTTP Request: /PREFERENCES/GET_PREFERENCE** 
-
-**Summary:** This API retrieves the preference
-
-**Parameters**
-
-| Name | Located in | Description | Required | Type |
-| ---- | ---------- | ----------- | -------- | ---- |
-| key | query |  | Yes |  |
-
-**Responses**
-
-| Code | Description |
-| ---- | ----------- |
-| 200 | Successful Response |
-| 422 | Validation Error |
 
 ## Set Preference 
 ### **HTTP Request: /PREFERENCES/SET_PREFERENCE** 
 
-**Summary:** This API allows you to set your preference for
+**Summary:** This API allows you to update or change existing settings that can be activated and deactivated.
 
 **Responses**
 
@@ -2578,7 +2560,7 @@ DOC2 - API
 ## Document ID - File Name
 ### **HTTP Request: /RESOURCE/DOCUMENT/{DOC_ID}/{FILENAME}** 
 
-**Summary:** This API
+**Summary:** This API retrieves a file of a document.
 
 **Parameters**
 
@@ -2597,7 +2579,7 @@ DOC2 - API
 ## Image ID - Page
 ### **HTTP Request: /RESOURCE/IMAGE/{DOC_ID}/{PAGE}** 
 
-**Summary:** This API
+**Summary:** This API retrieves an image from a specific document.
 
 **Parameters**
 
@@ -2616,7 +2598,7 @@ DOC2 - API
 ## Type - ID - Image (Page) 
 ### **HTTP Request: /RESOURCE/{TYPE}/{ID}/IMAGE/{PAGE}** 
 
-**Summary:** This API
+**Summary:** This API allows you to retrieve a specific image from a document.
 
 **Parameters**
 
@@ -2636,7 +2618,7 @@ DOC2 - API
 ## Check S3
 ### **HTTP Request: /RESOURCE/CHECK_S3** 
 
-**Summary:** S3 Check
+**Summary:** This API can check if a file is stored online and exists.
 
 **Parameters**
 
@@ -2655,7 +2637,7 @@ DOC2 - API
 ## Mass Check S3
 ### **HTTP Request: /RESOURCE/MASS_CHECK_S3** 
 
-**Summary:** Mass S3 Check 
+**Summary:** This API can check if multiple files are saved online and exist. 
 
 **Parameters**
 
@@ -3223,7 +3205,7 @@ Returns:
 ## Create a Record 
 ### **HTTP Request: /DATA_VAULT/CREATE_RECORD** 
 
-**Summary:** 
+**Summary:** This API allows you to create a record to be stored in the data vault.
 
 **Responses**
 
