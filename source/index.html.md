@@ -2090,13 +2090,11 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /FIELD/GET_DOCUMENT_UI_LAYOUT
-## ***GET*** 
+# **FIELD**
+## Retrieve Document UI LAYOUT 
+### **HTTP Request: /FIELD/GET_DOCUMENT_UI_LAYOUT** 
 
-**Summary:** Get Document Ui Layout
-
-### HTTP Request 
-`***GET*** /field/get_document_ui_layout` 
+**Summary:** This API retrieves the document UI layout. 
 
 **Parameters**
 
@@ -2113,13 +2111,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /FIELD/GET_FIELD_SETTINGS
-## ***GET*** 
+## Retrieve Field Settings 
+### **HTTP Request: /FIELD/GET_FIELD_SETTINGS** 
 
-**Summary:** Get Field Settings
-
-### HTTP Request 
-`***GET*** /field/get_field_settings` 
+**Summary:** This API retrieves the field settings for a specific field. 
 
 **Parameters**
 
@@ -2136,13 +2131,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /FIELD/CLONE_DOC_TYPE
-## ***GET*** 
+## Clone Document Type 
+### **HTTP Request: /FIELD/CLONE_DOC_TYPE** 
 
-**Summary:** Clone Doc Type
-
-### HTTP Request 
-`***GET*** /field/clone_doc_type` 
+**Summary:** This API allows you to clone the fields of a document type to create a clone of a document type.
 
 **Parameters**
 
@@ -2159,13 +2151,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /FIELD/COPY_FIELDS_SETTING_FROM_DOC_TYPE
-## ***GET*** 
+## Copy Settings from Document Type 
+### **HTTP Request: /FIELD/COPY_FIELDS_SETTING_FROM_DOC_TYPE** 
 
-**Summary:** Copy Fields Setting From Doc Type
-
-### HTTP Request 
-`***GET*** /field/copy_fields_setting_from_doc_type` 
+**Summary:** This API lets you copy the field settings of a document type.
 
 **Parameters**
 
@@ -2182,13 +2171,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /FIELD/GET_FIELD_SETTINGS_ALL_DOCUMENT_TYPES
-## ***GET*** 
+## Retrieve Field Settings of all Document Types 
+### **HTTP Request: /FIELD/GET_FIELD_SETTINGS_ALL_DOCUMENT_TYPES** 
 
-**Summary:** Get All Documents Field Settings
-
-### HTTP Request 
-`***GET*** /field/get_field_settings_all_document_types` 
+**Summary:** This API retrieves a list of all the document types of an organisation as well as the field settings contained within those document types.
 
 **Parameters**
 
@@ -2203,13 +2189,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /FIELD/SETTINGS_RESTORE_DEFAULTS
-## ***POST*** 
+## Restore Default Settings 
+### **HTTP Request: /FIELD/SETTINGS_RESTORE_DEFAULTS** 
 
-**Summary:** Reset Field Rules
-
-### HTTP Request 
-`***POST*** /field/settings_restore_defaults` 
+**Summary:** This API allows you to restore field settings back to the default settings. 
 
 **Parameters**
 
@@ -2226,13 +2209,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /FIELD/UPDATE_FIELD_SETTINGS
-## ***POST*** 
+## Update Field Settings 
+### **HTTP Request: /FIELD/UPDATE_FIELD_SETTINGS** 
 
-**Summary:** Get Field Rules
-
-### HTTP Request 
-`***POST*** /field/update_field_settings` 
+**Summary:** This API allows you to update or change existing field settings. 
 
 **Parameters**
 
@@ -2249,13 +2229,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /FIELD/GET_DOCUMENT_LAYOUT
-## ***POST*** 
+## Retrieve Document Layout 
+### **HTTP Request: /FIELD/GET_DOCUMENT_LAYOUT** 
 
-**Summary:** Get Document Layout
-
-### HTTP Request 
-`***POST*** /field/get_document_layout` 
+**Summary:** This API retrieves the layout fo a specific document.
 
 **Parameters**
 
@@ -2272,13 +2249,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /FIELD/GET_DOCUMENT_TABLE_VALIDATION_RULES
-## ***GET*** 
+## Retrieve Document Table Validation Rules 
+### **HTTP Request: /FIELD/GET_DOCUMENT_TABLE_VALIDATION_RULES** 
 
-**Summary:** Get Document Table Validation Rules
-
-### HTTP Request 
-`***GET*** /field/get_document_table_validation_rules` 
+**Summary:** This API retrieves the validation rules for all documents table extractions.
 
 **Parameters**
 
@@ -2293,13 +2267,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /FIELD/UPDATE_DOCUMENT_TABLE_COLUMN
-## ***POST*** 
+## Update Document Table Column 
+### **HTTP Request: /FIELD/UPDATE_DOCUMENT_TABLE_COLUMN** 
 
-**Summary:** Update Document Table Column
-
-### HTTP Request 
-`***POST*** /field/update_document_table_column` 
+**Summary:** This API allows you to update or change an existing document table column.
 
 **Parameters**
 
@@ -2314,13 +2285,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /FIELD/GET_CUSTOM_FIELD_LABELS
-## ***GET*** 
+## Retrieve Custom Field Labels 
+### **HTTP Request: /FIELD/GET_CUSTOM_FIELD_LABELS** 
 
-**Summary:** Get Custom Field Labels
-
-### HTTP Request 
-`***GET*** /field/get_custom_field_labels` 
+**Summary:** This API retrieves a list of the custom field labels. 
 
 **Parameters**
 
