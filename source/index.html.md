@@ -99,7 +99,7 @@ curl -X 'GET' \
 
 # **TEST CLASSIFY**
 
-## Classifier v2
+### Classifier v2
 
 Upload and test direct the classification of a document
 
@@ -148,7 +148,7 @@ curl -X 'POST' \
 test
 
 # **HEALTHZ**
-## **HTTP Request: /HEALTHZ** 
+### **HTTP Request: /HEALTHZ** 
 
 **Summary:** This API checks to see if the system is online.
 
