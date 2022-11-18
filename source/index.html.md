@@ -3899,13 +3899,11 @@ Returns:
 | ---- | ----------- |
 | 200 | Successful Response |
 
-# /API/HEALTH/
-## ***GET*** 
+# **API**
+## API Health 
+### **HTTP Request: /API/HEALTH/** 
 
-**Summary:** Check All
-
-### HTTP Request 
-`***GET*** /api/health/` 
+**Summary:** This API checks if an API is still online.
 
 **Responses**
 
@@ -3913,13 +3911,10 @@ Returns:
 | ---- | ----------- |
 | 200 | Successful Response |
 
-# /API/HEALTH/SERVICES
-## ***GET*** 
+## API Health - Services 
+### **HTTP Request: /API/HEALTH/SERVICES** 
 
-**Summary:** Services
-
-### HTTP Request 
-`***GET*** /api/health/services` 
+**Summary:** This API retrieves the services available from the API.
 
 **Responses**
 
