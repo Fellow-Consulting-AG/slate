@@ -2304,13 +2304,11 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /EXTRACT/GET_TEXT
-## ***POST*** 
+# **EXTRACT**
+## Retrieve Text 
+### **HTTP Request: /EXTRACT/GET_TEXT** 
 
-**Summary:** Get Text
-
-### HTTP Request 
-`***POST*** /extract/get_text` 
+**Summary:** This API retrieves extracted text from a document.
 
 **Responses**
 
@@ -2319,13 +2317,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /EXTRACT/GET_TABLE_TEXT
-## ***POST*** 
+## Retrieve Table Text 
+### **HTTP Request: /EXTRACT/GET_TABLE_TEXT** 
 
-**Summary:** Get Table Text
-
-### HTTP Request 
-`***POST*** /extract/get_table_text` 
+**Summary:** This API retrieves text from an extracted table. 
 
 **Responses**
 
@@ -2334,13 +2329,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /EXTRACT/GET_FORMATTED_AMOUNT
-## ***POST*** 
+## Retrieve Formatted Amount 
+### **HTTP Request: /EXTRACT/GET_FORMATTED_AMOUNT** 
 
-**Summary:** Get Formatted Amount
-
-### HTTP Request 
-`***POST*** /extract/get_formatted_amount` 
+**Summary:** This API retrieves a formatted amount.
 
 **Responses**
 
@@ -2349,13 +2341,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /EXTRACT/GET_COLUMN_HEADERS
-## ***GET*** 
+## Retrieve Column Headers 
+### **HTTP Request: /EXTRACT/GET_COLUMN_HEADERS** 
 
-**Summary:** Get Document Types
-
-### HTTP Request 
-`***GET*** /extract/get_column_headers` 
+**Summary:** This API retrieves the column headers from an extracted table.
 
 **Responses**
 
@@ -2363,13 +2352,10 @@ DOC2 - API
 | ---- | ----------- |
 | 200 | Successful Response |
 
-# /EXTRACT/GET_AI_SCORE
-## ***POST*** 
+## Retrieve AI Score 
+### **HTTP Request: /EXTRACT/GET_AI_SCORE** 
 
-**Summary:** Get Ai Score
-
-### HTTP Request 
-`***POST*** /extract/get_ai_score` 
+**Summary:** This API retrieves the AI score from a data extraction of a document.
 
 **Parameters**
 
