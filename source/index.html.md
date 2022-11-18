@@ -21,13 +21,13 @@ meta:
     content: Documentation for the Polydocs API
 ---
 
-# **Introduction**
+# **INTRODUCTION**
 
 Welcome to the Polydocs API! You can use our API to access Polydocs API endpoints, which can get information on various cats, kittens, and breeds in our database.
 
 
 
-# **Authentication**
+# **AUTHENTIFICATION**
 
 > To authorize, use this code:
 
@@ -97,7 +97,7 @@ curl -X 'GET' \
   -H 'X-API-KEY: meowmeowmeow'
 ```
 
-# **Test Classify**
+# **TEST CLASSIFY**
 
 ## Classifier v2
 
