@@ -3342,13 +3342,11 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /FELLOWKV/GET_DATA/{URL}
-## ***GET*** 
+# **FELLOW KV**
+## Retrieve Data
+### **HTTP Request: /FELLOWKV/GET_DATA/{URL}** 
 
-**Summary:** Get Data
-
-### HTTP Request 
-`***GET*** /fellowkv/get_data/{url}` 
+**Summary:** This API retrieves data that was extracted from the Fellow KV extractor.
 
 **Parameters**
 
@@ -3363,34 +3361,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /FELLOWKV/POST_DATA/{URL}
-## ***POST*** 
+## Post Data 
+### **HTTP Request: /FELLOWKV/POST_DATA/{URL}** 
 
-**Summary:** Post Data
-
-### HTTP Request 
-`***POST*** /fellowkv/post_data/{url}` 
-
-**Parameters**
-
-| Name | Located in | Description | Required | Type |
-| ---- | ---------- | ----------- | -------- | ---- |
-| url | path |  | Yes |  |
-
-**Responses**
-
-| Code | Description |
-| ---- | ----------- |
-| 200 | Successful Response |
-| 422 | Validation Error |
-
-# /FELLOWKV/POST_ASAD_DATA/{URL}
-## ***POST*** 
-
-**Summary:** Post Asad Data
-
-### HTTP Request 
-`***POST*** /fellowkv/post_asad_data/{url}` 
+**Summary:** This API takes the retrieved Fellow KV data and posts a URL where the data is viewable.
 
 **Parameters**
 
