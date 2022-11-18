@@ -2598,13 +2598,11 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /RESOURCE/DOCUMENT/{DOC_ID}/{FILENAME}
-## ***GET*** 
+# **RESOURCE**
+## Document ID - File Name
+### **HTTP Request: /RESOURCE/DOCUMENT/{DOC_ID}/{FILENAME}** 
 
-**Summary:** Document
-
-### HTTP Request 
-`***GET*** /resource/document/{doc_id}/{filename}` 
+**Summary:** This API
 
 **Parameters**
 
@@ -2620,13 +2618,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /RESOURCE/IMAGE/{DOC_ID}/{PAGE}
-## ***GET*** 
+## Image ID - Page
+### **HTTP Request: /RESOURCE/IMAGE/{DOC_ID}/{PAGE}** 
 
-**Summary:** Document
-
-### HTTP Request 
-`***GET*** /resource/image/{doc_id}/{page}` 
+**Summary:** This API
 
 **Parameters**
 
@@ -2642,13 +2637,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /RESOURCE/{TYPE}/{ID}/IMAGE/{PAGE}
-## ***GET*** 
+## Type - ID - Image (Page) 
+### **HTTP Request: /RESOURCE/{TYPE}/{ID}/IMAGE/{PAGE}** 
 
-**Summary:** Document
-
-### HTTP Request 
-`***GET*** /resource/{type}/{id}/image/{page}` 
+**Summary:** This API
 
 **Parameters**
 
@@ -2665,13 +2657,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /RESOURCE/CHECK_S3
-## ***GET*** 
+## Check S3
+### **HTTP Request: /RESOURCE/CHECK_S3** 
 
 **Summary:** S3 Check
-
-### HTTP Request 
-`***GET*** /resource/check_S3` 
 
 **Parameters**
 
@@ -2687,13 +2676,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /RESOURCE/MASS_CHECK_S3
-## ***POST*** 
+## Mass Check S3
+### **HTTP Request: /RESOURCE/MASS_CHECK_S3** 
 
-**Summary:** Mass S3 Check
-
-### HTTP Request 
-`***POST*** /resource/mass_check_S3` 
+**Summary:** Mass S3 Check 
 
 **Parameters**
 
@@ -2708,15 +2694,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /RESOURCE/GET_ERRORS
-## ***GET*** 
+## Retrieve Errors
+### **HTTP Request: /RESOURCE/GET_ERRORS** 
 
-**Summary:** Get Error From Db
-
-**Description:** Gets the error message and the exception cause from the db for the specified doc_ids
-
-### HTTP Request 
-`***GET*** /resource/get_errors` 
+**Summary:** Gets the error message and the exception cause from the db for the specified doc_ids.
 
 **Parameters**
 
@@ -2731,12 +2712,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /EPHESOFT/EXTRACT_TABLE
-## ***POST*** 
+## Extract Table 
+## **HTTP Request: /EPHESOFT/EXTRACT_TABLE** 
 
-**Summary:** Extract Table
-
-**Description:** Extracts table from the document
+**Summary:** Extracts table from the document
 Args:
     file: Document from which table should be extracted
     force_ocr ([type]): To re-ocr already ocr-ed document
@@ -2747,10 +2726,7 @@ Args:
     end_page: End page (In case there are multiple documents in single pdf)
     output_format: It is useless and never should be passed
 Returns:
-    [type]: Returns extracted table (Compact)
-
-### HTTP Request 
-`***POST*** /ephesoft/extract_table` 
+    [type]: Returns extracted table (Compact) 
 
 **Parameters**
 
