@@ -3663,7 +3663,7 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# **CUTOM MODEL**
+# **CUSTOM MODEL**
 ## List 
 ### **HTTP Request: /CUSTOM_MODEL/LIST** 
 
