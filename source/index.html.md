@@ -3579,13 +3579,11 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error | -->
 
-# /DOCUMENT_STATUS_ALERT/GET_DOCUMENT_STATUS_ALERT_STATUSES
-## ***GET*** 
+# **DOCUMENT STATUS ALERT** 
+## Retrieve Document Alert Status
+### **HTTP Request: /DOCUMENT_STATUS_ALERT/GET_DOCUMENT_STATUS_ALERT_STATUSES** 
 
-**Summary:** Get Document Status Alert Statuses
-
-### HTTP Request 
-`***GET*** /document_status_alert/get_document_status_alert_statuses` 
+**Summary:** This API retrieves the status of documents for which you have alerts configured.
 
 **Responses**
 
@@ -3593,13 +3591,10 @@ Returns:
 | ---- | ----------- |
 | 200 | Successful Response |
 
-# /DOCUMENT_STATUS_ALERT/GET_DOCUMENT_STATUS_ALERTS
-## ***GET*** 
+## Retrieve Document Alerts 
+### **HTTP Request: /DOCUMENT_STATUS_ALERT/GET_DOCUMENT_STATUS_ALERTS** 
 
-**Summary:** Get Document Status Alerts
-
-### HTTP Request 
-`***GET*** /document_status_alert/get_document_status_alerts` 
+**Summary:** This API retrieves only the alerts for documents which you have alerts configured.
 
 **Responses**
 
@@ -3607,13 +3602,10 @@ Returns:
 | ---- | ----------- |
 | 200 | Successful Response |
 
-# /DOCUMENT_STATUS_ALERT/CREATE_DOCUMENT_STATUS_ALERT
-## ***POST*** 
+## Create Document Status Alert 
+### **HTTP Request: /DOCUMENT_STATUS_ALERT/CREATE_DOCUMENT_STATUS_ALERT** 
 
-**Summary:** Create Group
-
-### HTTP Request 
-`***POST*** /document_status_alert/create_document_status_alert` 
+**Summary:** This API allows you to create a new status alert for a document.
 
 **Responses**
 
@@ -3622,13 +3614,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT_STATUS_ALERT/UPDATE_DOCUMENT_STATUS_ALERT
-## ***POST*** 
+## Update Document Status Alert 
+### **HTTP Request: /DOCUMENT_STATUS_ALERT/UPDATE_DOCUMENT_STATUS_ALERT** 
 
-**Summary:** Update Document Status Alert
-
-### HTTP Request 
-`***POST*** /document_status_alert/update_document_status_alert` 
+**Summary:** This API allows you to update or change an existing document status alert.
 
 **Responses**
 
@@ -3637,13 +3626,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT_STATUS_ALERT/REMOVE_DOCUMENT_STATUS_ALERT
-## ***DELETE*** 
+## Delete Document Status Alert 
+### **HTTP Request: /DOCUMENT_STATUS_ALERT/REMOVE_DOCUMENT_STATUS_ALERT** 
 
-**Summary:** Remove Document Status Alert
-
-### HTTP Request 
-`***DELETE*** /document_status_alert/remove_document_status_alert` 
+**Summary:** This API allows you to delte a document status alert.
 
 **Responses**
 
