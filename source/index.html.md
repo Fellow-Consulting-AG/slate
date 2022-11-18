@@ -2712,8 +2712,9 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
+# **EPHESOFT**
 ## Extract Table 
-## **HTTP Request: /EPHESOFT/EXTRACT_TABLE** 
+### **HTTP Request: /EPHESOFT/EXTRACT_TABLE** 
 
 **Summary:** Extracts table from the document
 Args:
@@ -2744,26 +2745,20 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /EPHESOFT/GET_TABLE_TRAIN_URL
-## ***POST*** 
+## Retrieve Table Train URL 
+### **HTTP Request: /EPHESOFT/GET_TABLE_TRAIN_URL** 
 
-**Summary:** Get Table Train Url
+**Summary:** Saves a table training record with doc_id and ephesoft_doc_id extracted
+             from attached xml. OCRs and copies document from fellowkv storage to doc2 storage.
+            Note: This endpoint doesn't extract any table yet. This is done by get_table_train_data endpoint.
 
-**Description:** Saves a table training record with doc_id and ephesoft_doc_id extracted
-    from attached xml.
-    OCRs and copies document from fellowkv storage to doc2 storage.
-    Note: This endpoint doesn't extract any table yet. This is done by 
-          get_table_train_data endpoint.
 Args:
-    ephesoft_doc_id ([type]): Ephesoft doc id, for which table will be 
+ephesoft_doc_id ([type]): Ephesoft doc id, for which table will be 
                               trained/extracted (e.g. DOC1)
     file: Zip or XML document from Ephesoft. ([BatchInstance]_batch.xml)
     force_ocr ([type]): To re-ocr already ocr-ed document
 Returns:
     [type]: id of the saved record
-
-### HTTP Request 
-`***POST*** /ephesoft/get_table_train_url` 
 
 **Responses**
 
@@ -2772,19 +2767,14 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /EPHESOFT/GET_TABLE_TRAIN_DATA
-## ***GET*** 
+## Retrieve Table Train Data 
+### **HTTP Request: /EPHESOFT/GET_TABLE_TRAIN_DATA** 
 
-**Summary:** Get Table Train Data
-
-**Description:** Extracts table from the document and return in response
+**Summary:** Extracts table from the document and return in response.
 Args:
     id ([type]): Id for the saved record for EphesoftTableExtractionTraining
 Returns:
     [type]: id of the saved record
-
-### HTTP Request 
-`***GET*** /ephesoft/get_table_train_data` 
 
 **Parameters**
 
@@ -2799,21 +2789,15 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /EPHESOFT/SAVE_EXTRACTION_RULES/{ID}
-## ***POST*** 
+## Save Extraction Rules 
+## **HTTP Request: /EPHESOFT/SAVE_EXTRACTION_RULES/{ID}** 
 
-**Summary:** Save Extraction Rules2
-
-**Description:** Saves extraction results, which can be loaded in Ephesoft with 'Reload Data' button
-    using get_updated_ephesoft_doc endpoint.
-    Saves table extraction rules for future documents of same supplier.
+**Summary:** Saves extraction results, which can be loaded in Ephesoft with 'Reload Data' button
+             using get_updated_ephesoft_doc endpoint. Saves table extraction rules for future documents of same supplier.
 Args:
     id ([type]): Id for the saved record for EphesoftTableExtractionTraining
 Returns:
     [type]: id of the saved record
-
-### HTTP Request 
-`***POST*** /ephesoft/save_extraction_rules/{id}` 
 
 **Parameters**
 
@@ -2828,15 +2812,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /EPHESOFT/GET_PO_MATCH_URL
-## ***POST*** 
+## Retrieve PO Match URL 
+### **HTTP Request: /EPHESOFT/GET_PO_MATCH_URL** 
 
-**Summary:** Get Po Match Url
-
-**Description:** Saves a EphesoftPOMatching record with doc_id and ephesoft_doc_id extracted
-    from attached xml.
-    Extract table from xml
-    Populates po_items (po line match with table line)
+**Summary:** Saves a EphesoftPOMatching record with doc_id and ephesoft_doc_id extracted from attached xml. 
 Args:
     ephesoft_doc_id ([type]): Ephesoft doc id, for which table will be 
                               trained/extracted (e.g. DOC1)
@@ -2844,9 +2823,6 @@ Args:
 Returns:
     [type]: id of the saved record
 
-### HTTP Request 
-`***POST*** /ephesoft/get_po_match_url` 
-
 **Responses**
 
 | Code | Description |
@@ -2854,21 +2830,16 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /EPHESOFT/GET_PO_MATCH_DATA/{ID}
-## ***GET*** 
+## Retrieve PO Match Data 
+### **HTTP Request: /EPHESOFT/GET_PO_MATCH_DATA/{ID}** 
 
-**Summary:** Get Po Match Data
+**Summary:** Return extracted_data from EphesoftPOMatching. This has same structure as we have for documents extracted_data.
 
-**Description:** Return extracted_data from EphesoftPOMatching. This has same structure
-    as we have for documents extracted_data
 Args:
     id ([type]): EphesoftPOMatching record id
 Returns:
     [type]: extracted_data from EphesoftPOMatching
 
-### HTTP Request 
-`***GET*** /ephesoft/get_po_match_data/{id}` 
-
 **Parameters**
 
 | Name | Located in | Description | Required | Type |
@@ -2882,20 +2853,16 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /EPHESOFT/SAVE_PO_MATCH_DATA/{ID}
-## ***POST*** 
+## Save PO Match Data 
+### **HTTP Request: /EPHESOFT/SAVE_PO_MATCH_DATA/{ID}** 
 
-**Summary:** Save Po Match Data
+**Summary:** Saves updated EphesoftPOMatching record from extracted_data sent in request.
 
-**Description:** Saves updated EphesoftPOMatching record from extracted_data sent in request.
 Args:
     id ([type]): EphesoftPOMatching record id
     extracted_data ([type]): extracted_data in the same format we have for documents
 Returns:
-    [type]: success result
-
-### HTTP Request 
-`***POST*** /ephesoft/save_po_match_data/{id}` 
+    [type]: success result 
 
 **Parameters**
 
@@ -2910,13 +2877,11 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /EPHESOFT/GET_UPDATED_EPHESOFT_DOC
-## ***POST*** 
+## Retrieve Updated Ephesoft Document 
+### **HTTP Request: /EPHESOFT/GET_UPDATED_EPHESOFT_DOC** 
 
-**Summary:** Get Updated Ephesoft Doc
+**Summary:** Return updated ephesoft xml document populated either from extracted table or from PO matching.
 
-**Description:** Return updated ephesoft xml document populated either from extracted table
-    or from PO matching
 Args:
     source ([type]): TableTraining or PO
                      - TableTraining: Result xml should be populated from 
@@ -2927,9 +2892,6 @@ Args:
     file: Zip or XML document in which table will be updated
 Returns:
     [type]: Zip file with updated table
-
-### HTTP Request 
-`***POST*** /ephesoft/get_updated_ephesoft_doc` 
 
 **Parameters**
 
