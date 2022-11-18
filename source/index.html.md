@@ -2898,13 +2898,11 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT_TYPE/GET_DOCUMENT_TYPES
-## ***GET*** 
+# **DOCUMENT TYPE**
+## Retrieve Document Type
+### **HTTP Request: /DOCUMENT_TYPE/GET_DOCUMENT_TYPES** 
 
-**Summary:** Get Document Types
-
-### HTTP Request 
-`***GET*** /document_type/get_document_types` 
+**Summary:** This API retrieves specific document types.
 
 **Responses**
 
@@ -2912,13 +2910,10 @@ Returns:
 | ---- | ----------- |
 | 200 | Successful Response |
 
-# /DOCUMENT_TYPE/GET_DOCUMENT_TYPES_AND_SUB_TYPES
-## ***GET*** 
+## Retrieve Document Types and Sub Types 
+### **HTTP Request: /DOCUMENT_TYPE/GET_DOCUMENT_TYPES_AND_SUB_TYPES** 
 
-**Summary:** Get Document Types And Sub Types
-
-### HTTP Request 
-`***GET*** /document_type/get_document_types_and_sub_types` 
+**Summary:** This API retrieves specific document types and sub types.
 
 **Responses**
 
@@ -2926,13 +2921,10 @@ Returns:
 | ---- | ----------- |
 | 200 | Successful Response |
 
-# /DOCUMENT_TYPE/CREATE_DOCUMENT_TYPE
-## ***POST*** 
+## Create Document Type
+### **HTTP Request: /DOCUMENT_TYPE/CREATE_DOCUMENT_TYPE** 
 
-**Summary:** Create Document Type
-
-### HTTP Request 
-`***POST*** /document_type/create_document_type` 
+**Summary:** This API allows you to create a document type.
 
 **Responses**
 
@@ -2941,13 +2933,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT_TYPE/DELETE_DOCUMENT_TYPE/{ID}
-## ***DELETE*** 
+## Delete Document Type
+### **HTTP Request: /DOCUMENT_TYPE/DELETE_DOCUMENT_TYPE/{ID}** 
 
-**Summary:** Delete Document Type
-
-### HTTP Request 
-`***DELETE*** /document_type/delete_document_type/{id}` 
+**Summary:** This API allows you to dlete a document type.
 
 **Parameters**
 
@@ -2962,13 +2951,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT_TYPE/GET_SUB_DOCUMENT_TYPES
-## ***GET*** 
+## Retrieve Sub Document Type 
+### **HTTP Request: /DOCUMENT_TYPE/GET_SUB_DOCUMENT_TYPES** 
 
-**Summary:** Get Sub Document Types
-
-### HTTP Request 
-`***GET*** /document_type/get_sub_document_types` 
+**Summary:** This API retrieves a specific sub document type.
 
 **Parameters**
 
@@ -2983,13 +2969,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT_TYPE/CREATE_SUB_DOCUMENT_TYPE
-## ***POST*** 
+## Create Sub Document Type 
+### **HTTP Request: /DOCUMENT_TYPE/CREATE_SUB_DOCUMENT_TYPE** 
 
-**Summary:** Create Sub Document Type
-
-### HTTP Request 
-`***POST*** /document_type/create_sub_document_type` 
+**Summary:** This API allows you to create a sub document type.
 
 **Responses**
 
@@ -2998,13 +2981,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT_TYPE/DELETE_SUB_DOCUMENT_TYPE/{ID}
-## ***DELETE*** 
+## Delete Sub Document Type 
+### **HTTP Request: /DOCUMENT_TYPE/DELETE_SUB_DOCUMENT_TYPE/{ID}** 
 
-**Summary:** Delete Sub Document Type
-
-### HTTP Request 
-`***DELETE*** /document_type/delete_sub_document_type/{id}` 
+**Summary:** This API allows you to delete a sub document type.
 
 **Parameters**
 
@@ -3019,13 +2999,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT_TYPE/ACTIVATE_DEACTIVATE_DOCUMENT_TYPE
-## ***POST*** 
+## Activate/Deactivate Document Type 
+### **HTTP Request: /DOCUMENT_TYPE/ACTIVATE_DEACTIVATE_DOCUMENT_TYPE** 
 
-**Summary:** Activate Deactivate Document Type
-
-### HTTP Request 
-`***POST*** /document_type/activate_deactivate_document_type` 
+**Summary:** This API allows you to activate or deactivate a specific document type.
 
 **Responses**
 
@@ -3034,13 +3011,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT_TYPE/GET_DOCUMENT_FIELD_GROUPS
-## ***GET*** 
+## Retrieve Document Field Groups 
+### **HTTP Request: /DOCUMENT_TYPE/GET_DOCUMENT_FIELD_GROUPS** 
 
-**Summary:** Get Document Field Groups
-
-### HTTP Request 
-`***GET*** /document_type/get_document_field_groups` 
+**Summary:** This API retrieves document field groups.
 
 **Parameters**
 
@@ -3056,13 +3030,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT_TYPE/CREATE_DOCUMENT_FIELD_GROUP
-## ***POST*** 
+## Create Document Field Group 
+### **HTTP Request: /DOCUMENT_TYPE/CREATE_DOCUMENT_FIELD_GROUP** 
 
-**Summary:** Create Document Field Group
-
-### HTTP Request 
-`***POST*** /document_type/create_document_field_group` 
+**Summary:** This API allows you to create a document field group.
 
 **Responses**
 
@@ -3071,13 +3042,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT_TYPE/DELETE_DOCUMENT_FIELD_GROUP/{ID}
-## ***DELETE*** 
+## Delete Document Field Group 
+### **HTTP Request: /DOCUMENT_TYPE/DELETE_DOCUMENT_FIELD_GROUP/{ID}** 
 
-**Summary:** Delete Document Field Group
-
-### HTTP Request 
-`***DELETE*** /document_type/delete_document_field_group/{id}` 
+**Summary:** This API allows you to delete a document field group.
 
 **Parameters**
 
@@ -3092,13 +3060,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT_TYPE/CREATE_DOCUMENT_FIELD
-## ***POST*** 
+## Create Document Field 
+### **HTTP Request: /DOCUMENT_TYPE/CREATE_DOCUMENT_FIELD** 
 
-**Summary:** Create Document Field
-
-### HTTP Request 
-`***POST*** /document_type/create_document_field` 
+**Summary:** This API allows you to create a document field.
 
 **Responses**
 
@@ -3107,13 +3072,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT_TYPE/DELETE_DOCUMENT_FIELD/{ID}
-## ***DELETE*** 
+## Delete Document Field 
+### **HTTP Request: /DOCUMENT_TYPE/DELETE_DOCUMENT_FIELD/{ID}** 
 
-**Summary:** Delete Document Field
-
-### HTTP Request 
-`***DELETE*** /document_type/delete_document_field/{id}` 
+**Summary:** This API lets you delete a document field.
 
 **Parameters**
 
@@ -3128,13 +3090,11 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT_TABLE/GET_ALL_DOCUMENT_TABLES
-## ***GET*** 
+# **DOCUMENT TABLE**
+## Retrieve All Document Tables 
+### **HTTP Request: /DOCUMENT_TABLE/GET_ALL_DOCUMENT_TABLES** 
 
-**Summary:** Get Document Types
-
-### HTTP Request 
-`***GET*** /document_table/get_all_document_tables` 
+**Summary:** This API retrieves all tables that appear in an organisations documents.
 
 **Responses**
 
@@ -3142,13 +3102,10 @@ Returns:
 | ---- | ----------- |
 | 200 | Successful Response |
 
-# /DOCUMENT_TABLE/GET_DOCUMENT_TABLES
-## ***GET*** 
+## Retrieve Document Tables 
+### **HTTP Request: /DOCUMENT_TABLE/GET_DOCUMENT_TABLES** 
 
-**Summary:** Get Document Types
-
-### HTTP Request 
-`***GET*** /document_table/get_document_tables` 
+**Summary:** This API retrieves document tables.
 
 **Parameters**
 
@@ -3163,13 +3120,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT_TABLE/GET_DOCUMENT_TABLES_WITH_COLUMNS
-## ***GET*** 
+## Retrieve Document Tables with Columns
+### **HTTP Request: /DOCUMENT_TABLE/GET_DOCUMENT_TABLES_WITH_COLUMNS** 
 
-**Summary:** Get Document Tables With Columns
-
-### HTTP Request 
-`***GET*** /document_table/get_document_tables_with_columns` 
+**Summary:** This API retrieves document tables with columns included.
 
 **Parameters**
 
@@ -3184,13 +3138,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT_TABLE/CREATE_DOCUMENT_TABLE
-## ***POST*** 
+## Create Document Table 
+### **HTTP Request: /DOCUMENT_TABLE/CREATE_DOCUMENT_TABLE** 
 
-**Summary:** Create Document Table
-
-### HTTP Request 
-`***POST*** /document_table/create_document_table` 
+**Summary:** This API allows you to create a document table.
 
 **Responses**
 
@@ -3199,13 +3150,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT_TABLE/DELETE_DOCUMENT_TABLE/{ID}
-## ***DELETE*** 
+## Delete Document Table 
+### **HTTP Request: /DOCUMENT_TABLE/DELETE_DOCUMENT_TABLE/{ID}** 
 
-**Summary:** Delete Document Table
-
-### HTTP Request 
-`***DELETE*** /document_table/delete_document_table/{id}` 
+**Summary:** This API allows you to delete a document table.
 
 **Parameters**
 
@@ -3220,13 +3168,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT_TABLE/GET_DOCUMENT_TABLE_COLUMNS
-## ***GET*** 
+## Retrieve Document Table Columns 
+### **HTTP Request: /DOCUMENT_TABLE/GET_DOCUMENT_TABLE_COLUMNS** 
 
-**Summary:** Get Document Table Columns
-
-### HTTP Request 
-`***GET*** /document_table/get_document_table_columns` 
+**Summary:** This API retrieves the columns from a table within a document.
 
 **Parameters**
 
@@ -3241,13 +3186,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT_TABLE/CREATE_DOCUMENT_TABLE_COLUMN
-## ***POST*** 
+## Create Document Table Column 
+### **HTTP Request: /DOCUMENT_TABLE/CREATE_DOCUMENT_TABLE_COLUMN** 
 
-**Summary:** Create Document Table Column
-
-### HTTP Request 
-`***POST*** /document_table/create_document_table_column` 
+**Summary:** This API allows you to crteate a document table column.
 
 **Responses**
 
@@ -3256,13 +3198,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT_TABLE/DELETE_DOCUMENT_TABLE_COLUMN/{ID}
-## ***DELETE*** 
+## Delete Document Table Column
+### **HTTP Request: /DOCUMENT_TABLE/DELETE_DOCUMENT_TABLE_COLUMN/{ID}** 
 
-**Summary:** Delete Document Table Column
-
-### HTTP Request 
-`***DELETE*** /document_table/delete_document_table_column/{id}` 
+**Summary:** This API allows you to dlete a document table column.
 
 **Parameters**
 
@@ -3277,13 +3216,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT_TABLE/UPDATE_DOCUMENT_TABLE_COLUMN
-## ***POST*** 
+## Update Document Table Column 
+### **HTTP Request: /DOCUMENT_TABLE/UPDATE_DOCUMENT_TABLE_COLUMN** 
 
-**Summary:** Update Document Table Column
-
-### HTTP Request 
-`***POST*** /document_table/update_document_table_column` 
+**Summary:** This API allows you to update or change an existing document table column.
 
 **Parameters**
 
