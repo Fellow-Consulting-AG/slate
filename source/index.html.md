@@ -1628,13 +1628,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT/RESTART_EXPORT/{DOC_ID}
-## ***GET*** 
+## Restart export 
+### **HTTP Request: /DOCUMENT/RESTART_EXPORT/{DOC_ID}** 
 
-**Summary:** Restart Export
-
-### HTTP Request 
-`***GET*** /document/restart_export/{doc_id}` 
+**Summary:** Restart Export 
 
 **Parameters**
 
@@ -1649,13 +1646,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT/{DOC_ID}
-## ***GET*** 
+## Document ID
+### **HTTP Request: /DOCUMENT/{DOC_ID}** 
 
-**Summary:** Get Document
-
-### HTTP Request 
-`***GET*** /document/{doc_id}` 
+**Summary:** Get Document ID.
 
 **Parameters**
 
@@ -1670,12 +1664,12 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT/DELETE/{DOC_ID}
-## ***DELETE*** 
+## Delete 
+### **HTTP Request: /DOCUMENT/DELETE/{DOC_ID}** 
 
-**Summary:** Delete Document
+**Summary:** Delete document.
 
-### HTTP Request 
+###  
 `***DELETE*** /document/delete/{doc_id}` 
 
 **Parameters**
