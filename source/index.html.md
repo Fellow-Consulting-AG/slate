@@ -2371,13 +2371,11 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /PURCHASE_ORDER/GET_PURCHASE_ORDERS_LIST
-## ***GET*** 
+# **PURCHASE ORDERS**
+## Retrieve Purchase Order List 
+### **HTTP Request: /PURCHASE_ORDER/GET_PURCHASE_ORDERS_LIST** 
 
-**Summary:** Get Purchase Orders List
-
-### HTTP Request 
-`***GET*** /purchase_order/get_purchase_orders_list` 
+**Summary:** This API retrieves purchase order lists.
 
 **Parameters**
 
@@ -2394,13 +2392,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /PURCHASE_ORDER/GET_PURCHASE_ORDER_LINES
-## ***GET*** 
+## Retrieve Lines
+### **HTTP Request: /PURCHASE_ORDER/GET_PURCHASE_ORDER_LINES** 
 
-**Summary:** Get Purchase Order Lines
-
-### HTTP Request 
-`***GET*** /purchase_order/get_purchase_order_lines` 
+**Summary:** This API retrieves purchase order lines.
 
 **Parameters**
 
@@ -2418,13 +2413,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /PURCHASE_ORDER/GET_PURCHASE_ORDER_DISPLAY_COLS
-## ***GET*** 
+## Retrieve Display Columns 
+### **HTTP Request: /PURCHASE_ORDER/GET_PURCHASE_ORDER_DISPLAY_COLS** 
 
-**Summary:** Get Purchase Orders List
-
-### HTTP Request 
-`***GET*** /purchase_order/get_purchase_order_display_cols` 
+**Summary:** This API retrieves ourchase order display columns.
 
 **Parameters**
 
@@ -2439,13 +2431,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /PURCHASE_ORDER/GET_TABLE_FROM_PO_NUMBERS
-## ***POST*** 
+## Retrieve Table from PO Numbers
+### **HTTP Request: /PURCHASE_ORDER/GET_TABLE_FROM_PO_NUMBERS** 
 
-**Summary:** Get Table From Po Numbers
-
-### HTTP Request 
-`***POST*** /purchase_order/get_table_from_po_numbers` 
+**Summary:** This API retreves a table 
 
 **Responses**
 
@@ -2454,13 +2443,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /PURCHASE_ORDER/AUTO_PO_MATCH
-## ***POST*** 
+## Auto PO Match 
+### **HTTP Request: /PURCHASE_ORDER/AUTO_PO_MATCH** 
 
-**Summary:** Get Table From Po Numbers
-
-### HTTP Request 
-`***POST*** /purchase_order/auto_po_match` 
+**Summary:** This API allows you to automatically match a purchase order to the PO number.
 
 **Responses**
 
