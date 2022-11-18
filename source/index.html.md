@@ -3841,13 +3841,11 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /OCR_CONFIGURATIONS/GET_OCR_SERVER_TYPES
-## ***GET*** 
+# **OCR CONFIGURATIONS**
+## Retrieve OCR Server Types 
+### **HTTP Request: /OCR_CONFIGURATIONS/GET_OCR_SERVER_TYPES** 
 
-**Summary:** Get Ocr Server Types
-
-### HTTP Request 
-`***GET*** /ocr_configurations/get_ocr_server_types` 
+**Summary:** This API retrieves all OCR server types.
 
 **Responses**
 
@@ -3855,42 +3853,10 @@ Returns:
 | ---- | ----------- |
 | 200 | Successful Response |
 
-# /OCR_CONFIGURATIONS/UPDATE_OCR_CONFIGURATION
-## ***POST*** 
+## Update OCR Configuration 
+### **HTTP Request: /OCR_CONFIGURATIONS/UPDATE_OCR_CONFIGURATION** 
 
-**Summary:** Update Ocr Configuration
-
-### HTTP Request 
-`***POST*** /ocr_configurations/update_ocr_configuration` 
-
-**Responses**
-
-| Code | Description |
-| ---- | ----------- |
-| 200 | Successful Response |
-| 422 | Validation Error |
-
-# /OCR_CONFIGURATIONS/GET_OCR_CONFIGURATION
-## ***GET*** 
-
-**Summary:** Get Ocr Configuration
-
-### HTTP Request 
-`***GET*** /ocr_configurations/get_ocr_configuration` 
-
-**Responses**
-
-| Code | Description |
-| ---- | ----------- |
-| 200 | Successful Response |
-
-# /OCR_CONFIGURATIONS/UPDATE_ETEXT_ENABLE_STATUS
-## ***POST*** 
-
-**Summary:** Update Etext Enable Status
-
-### HTTP Request 
-`***POST*** /ocr_configurations/update_etext_enable_status` 
+**Summary:** This API allows you to update or change the existing OCR configurations.
 
 **Responses**
 
@@ -3899,13 +3865,33 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /OCR_CONFIGURATIONS/IS_ETEXT_ENABLED
-## ***GET*** 
+## Retrieve Specific OCR Configuration 
+### **HTTP Request: /OCR_CONFIGURATIONS/GET_OCR_CONFIGURATION** 
 
-**Summary:** Is Etext Enabled
+**Summary:** This API Allows you to retrieve a specific OCR configuration.
 
-### HTTP Request 
-`***GET*** /ocr_configurations/is_etext_enabled` 
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | Successful Response |
+
+## Enable/Disable Etext function 
+### **HTTP Request: /OCR_CONFIGURATIONS/UPDATE_ETEXT_ENABLE_STATUS** 
+
+**Summary:** This API allows you to activate or deactivate the Etext function.
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | Successful Response |
+| 422 | Validation Error |
+
+## Check if Etext is Enabled 
+### **HTTP Request: /OCR_CONFIGURATIONS/IS_ETEXT_ENABLED** 
+
+**Summary:** This API retrieves the status of the Etext activation (whether it is turned on or not).
 
 **Responses**
 
