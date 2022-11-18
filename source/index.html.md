@@ -2468,13 +2468,11 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /PREFERENCES/GET_PREFERENCES
-## ***GET*** 
+# **PREFERENCES**
+## Retrieve Preferences 
+### **HTTP Request: /PREFERENCES/GET_PREFERENCES** 
 
-**Summary:** Get Preferences
-
-### HTTP Request 
-`***GET*** /preferences/get_preferences` 
+**Summary:** This API retrieves the preferences
 
 **Responses**
 
@@ -2482,13 +2480,10 @@ DOC2 - API
 | ---- | ----------- |
 | 200 | Successful Response |
 
-# /PREFERENCES/GET_PREFERENCE
-## ***GET*** 
+## Retrieve Preference 
+### **HTTP Request: /PREFERENCES/GET_PREFERENCE** 
 
-**Summary:** Get Preference
-
-### HTTP Request 
-`***GET*** /preferences/get_preference` 
+**Summary:** This API retrieves the preference
 
 **Parameters**
 
@@ -2503,13 +2498,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /PREFERENCES/SET_PREFERENCE
-## ***PUT*** 
+## Set Preference 
+### **HTTP Request: /PREFERENCES/SET_PREFERENCE** 
 
-**Summary:** Set Preference
-
-### HTTP Request 
-`***PUT*** /preferences/set_preference` 
+**Summary:** This API allows you to set your preference for
 
 **Responses**
 
@@ -2518,13 +2510,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /PREFERENCES/REMOVE_PREFERENCE
-## ***DELETE*** 
+## Remove Preference 
+### **HTTP Request: /PREFERENCES/REMOVE_PREFERENCE** 
 
-**Summary:** Remove Preferences
-
-### HTTP Request 
-`***DELETE*** /preferences/remove_preference` 
+**Summary:** This API allows you to delete a preference.
 
 **Parameters**
 
@@ -2539,13 +2528,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /PREFERENCES/GET_DOCUMENT_TYPE_REGEXES
-## ***GET*** 
+## Retrieve Regex from Document Type 
+### **HTTP Request: /PREFERENCES/GET_DOCUMENT_TYPE_REGEXES** 
 
-**Summary:** Get Document Type Regexes
-
-### HTTP Request 
-`***GET*** /preferences/get_document_type_regexes` 
+**Summary:** This API retrieves the regular expressions of a document type.
 
 **Responses**
 
@@ -2553,13 +2539,10 @@ DOC2 - API
 | ---- | ----------- |
 | 200 | Successful Response |
 
-# /PREFERENCES/GET_SUPPORTED_BARCODE_TYPES
-## ***GET*** 
+## Retrieve Supported Barcode Types
+### **HTTP Request: /PREFERENCES/GET_SUPPORTED_BARCODE_TYPES** 
 
-**Summary:** Get Supported Barcode Types
-
-### HTTP Request 
-`***GET*** /preferences/get_supported_barcode_types` 
+**Summary:** This API retrieves all supported barcode types.
 
 **Responses**
 
@@ -2567,13 +2550,10 @@ DOC2 - API
 | ---- | ----------- |
 | 200 | Successful Response |
 
-# /PREFERENCES/UPDATE_ORGANISATION_PREFERENCE
-## ***POST*** 
+## Update Organisation Preferences 
+### **HTTP Request: /PREFERENCES/UPDATE_ORGANISATION_PREFERENCE** 
 
-**Summary:** Update Organisation Preference
-
-### HTTP Request 
-`***POST*** /preferences/update_organisation_preference` 
+**Summary:** This API allows you to update or change the preferences of an organisation.
 
 **Responses**
 
@@ -2582,13 +2562,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /PREFERENCES/GET_ORGANISATION_PREFERENCE
-## ***POST*** 
+## Retrieve Organisation Preferences 
+### **HTTP Request: /PREFERENCES/GET_ORGANISATION_PREFERENCE** 
 
-**Summary:** Get Organisation Preference
-
-### HTTP Request 
-`***POST*** /preferences/get_organisation_preference` 
+**Summary:** This API retrieves a list of all the preferences of an organisation.
 
 **Responses**
 
@@ -2597,13 +2574,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /PREFERENCES/UPDATE_OCR_CONFIGURATION
-## ***POST*** 
+## Update OCR Configuration 
+### **HTTP Request: /PREFERENCES/UPDATE_OCR_CONFIGURATION** 
 
-**Summary:** Update Ocr Configuration
-
-### HTTP Request 
-`***POST*** /preferences/update_ocr_configuration` 
+**Summary:** This API allows you to update or change the OCR configuration.
 
 **Responses**
 
@@ -2612,13 +2586,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /PREFERENCES/GET_OCR_CONFIGURATION
-## ***POST*** 
+## Retrieve OCR Configuration 
+### **HTTP Request: /PREFERENCES/GET_OCR_CONFIGURATION** 
 
-**Summary:** Get Ocr Configuration
-
-### HTTP Request 
-`***POST*** /preferences/get_ocr_configuration` 
+**Summary:** This API retrieves the OCR Configuration of an organisation.
 
 **Responses**
 
