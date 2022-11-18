@@ -1143,13 +1143,10 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /EXPORT/TEST_PROCESS_DOC
-## ***GET*** 
+## Test Process Document 
+### **HTTP Request: /EXPORT/TEST_PROCESS_DOC** 
 
 **Summary:** Test Process Doc
-
-### HTTP Request 
-`***GET*** /export/test_process_doc` 
 
 **Parameters**
 
