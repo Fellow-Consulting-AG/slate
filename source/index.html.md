@@ -3638,13 +3638,11 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /CUSTOM_CLASSIFIER/TEST_CLASSIFICATION
-## ***POST*** 
+# **CUSTOM CLASSIFIER** 
+## Test Classification
+### **HTTP Request: /CUSTOM_CLASSIFIER/TEST_CLASSIFICATION** 
 
-**Summary:** Test Classification
-
-### HTTP Request 
-`***POST*** /custom_classifier/test_classification` 
+**Summary:** This API allows you to test the cutom classification rule you created.
 
 **Responses**
 
@@ -3653,13 +3651,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /CUSTOM_CLASSIFIER/TRAIN_DOCUMENT
-## ***POST*** 
+## Train Document 
+### **HTTP Request: /CUSTOM_CLASSIFIER/TRAIN_DOCUMENT** 
 
-**Summary:** Train Document
-
-### HTTP Request 
-`***POST*** /custom_classifier/train_document` 
+**Summary:** This API lets you train documents using your custom classification rule.
 
 **Responses**
 
@@ -3668,12 +3663,13 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /CUSTOM_MODEL/LIST
-## ***GET*** 
+# **CUTOM MODEL**
+## List 
+## **HTTP Request: /CUSTOM_MODEL/LIST** 
 
-**Summary:** Get List
+**Summary:** This API retrieves a list
 
-### HTTP Request 
+###  
 `***GET*** /custom_model/list` 
 
 **Responses**
