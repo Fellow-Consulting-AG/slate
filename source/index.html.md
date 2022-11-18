@@ -2455,13 +2455,11 @@ DOC2 - API
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /SPECIAL_RULES/SAVE
-## ***POST*** 
+# **SPECIAL RULES** 
+## Save
+### **HTTP Request: /SPECIAL_RULES/SAVE** 
 
 **Summary:** Save
-
-### HTTP Request 
-`***POST*** /special_rules/save` 
 
 **Responses**
 
