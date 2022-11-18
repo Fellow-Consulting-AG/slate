@@ -54,7 +54,7 @@ You must replace <code>meowmeowmeow</code> with your personal API key.
 </aside>
 
 
-# **MasterData**
+# **MASTER DATA**
 
 ## Insert New Master Data 
 
