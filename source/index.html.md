@@ -3492,12 +3492,13 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /TRIGGERS/GET_TRIGGERS
-## ***GET*** 
+<!-- # ** TRIGGERS**
+## Retrieve Triggers 
+### **HTTP Request: /TRIGGERS/GET_TRIGGERS** 
 
-**Summary:** Get Triggers
+**Summary:** This API retrieves triggers for work
 
-### HTTP Request 
+### 
 `***GET*** /triggers/get_triggers` 
 
 **Responses**
@@ -3576,7 +3577,7 @@ Returns:
 | Code | Description |
 | ---- | ----------- |
 | 200 | Successful Response |
-| 422 | Validation Error |
+| 422 | Validation Error | -->
 
 # /DOCUMENT_STATUS_ALERT/GET_DOCUMENT_STATUS_ALERT_STATUSES
 ## ***GET*** 
