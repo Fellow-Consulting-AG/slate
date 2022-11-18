@@ -3293,26 +3293,12 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-## Auto Process Document 
-## **HTTP Request: /AUTO_TEST/AUTO_PROCESS_DOCUMENTS** 
-
-**Summary:**  
-
-**Responses**
-
-| Code | Description |
-| ---- | ----------- |
-| 200 | Successful Response |
-| 422 | Validation Error |
-
-# /REGEX_AND_PATTERNS/RE/IS_VALID
-## ***POST*** 
+# **REGEX AND PATTERNS**
+##  RE Validation 
+### **HTTP Request: /REGEX_AND_PATTERNS/RE/IS_VALID** 
 
 **Summary:** Is Re Valid
 
-### HTTP Request 
-`***POST*** /regex_and_patterns/re/is_valid` 
-
 **Responses**
 
 | Code | Description |
@@ -3320,13 +3306,22 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /REGEX_AND_PATTERNS/REGEX/IS_VALID
-## ***POST*** 
+## Regex Validation 
+### **HTTP Request: /REGEX_AND_PATTERNS/REGEX/IS_VALID** 
 
 **Summary:** Is Regex Valid
 
-### HTTP Request 
-`***POST*** /regex_and_patterns/regex/is_valid` 
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | Successful Response |
+| 422 | Validation Error |
+
+## RE Validate Patterns 
+### **HTTP Request: /REGEX_AND_PATTERNS/RE/VALIDATE_PATTERNS** 
+
+**Summary:** This API validates Re patterns.
 
 **Responses**
 
@@ -3335,28 +3330,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /REGEX_AND_PATTERNS/RE/VALIDATE_PATTERNS
-## ***POST*** 
+## Regex Validate Patterns 
+### **HTTP Request: /REGEX_AND_PATTERNS/REGEX/VALIDATE_PATTERNS** 
 
-**Summary:** Validate Re Patterns
-
-### HTTP Request 
-`***POST*** /regex_and_patterns/re/validate_patterns` 
-
-**Responses**
-
-| Code | Description |
-| ---- | ----------- |
-| 200 | Successful Response |
-| 422 | Validation Error |
-
-# /REGEX_AND_PATTERNS/REGEX/VALIDATE_PATTERNS
-## ***POST*** 
-
-**Summary:** Validate Regex Patterns
-
-### HTTP Request 
-`***POST*** /regex_and_patterns/regex/validate_patterns` 
+**Summary:** This API validates Regex patterns.
 
 **Responses**
 
