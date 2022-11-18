@@ -3665,12 +3665,9 @@ Returns:
 
 # **CUTOM MODEL**
 ## List 
-## **HTTP Request: /CUSTOM_MODEL/LIST** 
+### **HTTP Request: /CUSTOM_MODEL/LIST** 
 
-**Summary:** This API retrieves a list
-
-###  
-`***GET*** /custom_model/list` 
+**Summary:** This API retrieves a list of custom models.
 
 **Responses**
 
@@ -3678,13 +3675,10 @@ Returns:
 | ---- | ----------- |
 | 200 | Successful Response |
 
-# /CUSTOM_MODEL/CREATE
-## ***POST*** 
+## Create Model 
+### **HTTP Request: /CUSTOM_MODEL/CREATE** 
 
-**Summary:** Create Layout Templates
-
-### HTTP Request 
-`***POST*** /custom_model/create` 
+**Summary:** This API allows you to create custom model layouts.
 
 **Responses**
 
@@ -3693,13 +3687,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /CUSTOM_MODEL/{ID}
-## ***GET*** 
+## Retrieve Custom Model 
+### **HTTP Request: /CUSTOM_MODEL/{ID}** 
 
-**Summary:** Get Model
-
-### HTTP Request 
-`***GET*** /custom_model/{id}` 
+**Summary:** This API retrieves a custom model according to its ID.
 
 **Parameters**
 
@@ -3714,12 +3705,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-## ***PUT*** 
+## Update Custom Model
+### **HTTP Request: /CUSTOM_MODEL/{ID}** 
 
-**Summary:** Update Model
-
-### HTTP Request 
-`***PUT*** /custom_model/{id}` 
+**Summary:** This API allows you to update or change an existing custom model layout.
 
 **Responses**
 
@@ -3728,12 +3717,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-## ***DELETE*** 
+## Delete Custom Model
+### **HTTP Request: /CUSTOM_MODEL/{ID}**
 
-**Summary:** Delete Model
-
-### HTTP Request 
-`***DELETE*** /custom_model/{id}` 
+**Summary:** This API lets you delete a custom model layout.
 
 **Parameters**
 
@@ -3748,7 +3735,7 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /CUSTOM_MODEL_LABEL/LIST
+##  /CUSTOM_MODEL_LABEL/LIST
 ## ***GET*** 
 
 **Summary:** Get List
