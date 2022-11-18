@@ -21,13 +21,13 @@ meta:
     content: Documentation for the Polydocs API
 ---
 
-# Introduction
+# **Introduction**
 
 Welcome to the Polydocs API! You can use our API to access Polydocs API endpoints, which can get information on various cats, kittens, and breeds in our database.
 
 
 
-# Authentication
+# **Authentication**
 
 > To authorize, use this code:
 
@@ -54,9 +54,9 @@ You must replace <code>meowmeowmeow</code> with your personal API key.
 </aside>
 
 
-# MasterData
+# **MasterData**
 
-## Insert new Master Data 
+## Insert New Master Data 
 
 /master_data_lookup/xml/import_xml_file
 
@@ -97,7 +97,7 @@ curl -X 'GET' \
   -H 'X-API-KEY: meowmeowmeow'
 ```
 
-# Test Classify
+# **Test Classify**
 
 ## Classifier v2
 
@@ -147,13 +147,10 @@ curl -X 'POST' \
 
 test
 
-# HEALTHZ
-## ***GET*** 
+# **HEALTHZ**
+## **HTTP Request: /HEALTHZ** 
 
 **Summary:** This API checks to see if the system is online.
-
-### HTTP Request 
-`***GET*** /healthz` 
 
 **Responses**
 
@@ -3247,13 +3244,11 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /AUTO_TEST/ADD_UPDATE_DOCUMENT
-## ***POST*** 
+# **AUTO TEST**
+## Add Update Document 
+### **HTTP Request: /AUTO_TEST/ADD_UPDATE_DOCUMENT** 
 
-**Summary:** Add Update Document
-
-### HTTP Request 
-`***POST*** /auto_test/add_update_document` 
+**Summary:** This API duplicates the document into an auto test version of the document.
 
 **Responses**
 
@@ -3262,13 +3257,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /AUTO_TEST/REMOVE_DOCUMENT
-## ***DELETE*** 
+## Remove Document 
+### **HTTP Request: /AUTO_TEST/REMOVE_DOCUMENT** 
 
-**Summary:** Remove Document
-
-### HTTP Request 
-`***DELETE*** /auto_test/remove_document` 
+**Summary:** This API deletes an auto test document.
 
 **Parameters**
 
@@ -3283,13 +3275,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /AUTO_TEST/GET_DOCUMENT_DATA
-## ***GET*** 
+## Retrieve Document Data 
+### **HTTP Request: /AUTO_TEST/GET_DOCUMENT_DATA** 
 
-**Summary:** Get Document Data
-
-### HTTP Request 
-`***GET*** /auto_test/get_document_data` 
+**Summary:** This API retrieves data from an auto test document.
 
 **Parameters**
 
@@ -3304,13 +3293,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /AUTO_TEST/AUTO_PROCESS_DOCUMENTS
-## ***POST*** 
+## Auto Process Document 
+## **HTTP Request: /AUTO_TEST/AUTO_PROCESS_DOCUMENTS** 
 
-**Summary:** Auto Process Documents
-
-### HTTP Request 
-`***POST*** /auto_test/auto_process_documents` 
+**Summary:**  
 
 **Responses**
 
