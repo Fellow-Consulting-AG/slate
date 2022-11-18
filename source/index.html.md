@@ -23,7 +23,9 @@ meta:
 
 # **INTRODUCTION**
 
-Welcome to the Polydocs API! You can use our API to access Polydocs API endpoints, which can get information on various cats, kittens, and breeds in our database.
+Welcome to the Polydocs API! 
+
+You can use our API to access Polydocs API endpoints, which can get information on various cats, kittens, and breeds in our database.
 
 
 
@@ -101,7 +103,7 @@ curl -X 'GET' \
 
 ### Classifier v2
 
-Upload and test direct the classification of a document
+You can upload and test the classification of a document.
 
 
 ```json
