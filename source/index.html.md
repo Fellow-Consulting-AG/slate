@@ -3914,7 +3914,7 @@ Returns:
 ## API Health - Services 
 ### **HTTP Request: /API/HEALTH/SERVICES** 
 
-**Summary:** This API retrieves the services available from the API.
+**Summary:** This API retrieves the full list of services the API offers and displays whether they are online or not.
 
 **Responses**
 
