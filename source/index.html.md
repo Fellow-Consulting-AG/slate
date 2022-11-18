@@ -3379,13 +3379,11 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT_TRAINER/ADD_SAMPLE_DOCUMENT
-## ***POST*** 
+# **DOCUMENT TRAINER**
+## Add Sample Document 
+### **HTTP Request: /DOCUMENT_TRAINER/ADD_SAMPLE_DOCUMENT** 
 
-**Summary:** Add Sample Document
-
-### HTTP Request 
-`***POST*** /document_trainer/add_sample_document` 
+**Summary:** This API lets you upload multiple sample documents to the document trainer to test features, etc.
 
 **Responses**
 
@@ -3394,13 +3392,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT_TRAINER/ADD_ONE_SAMPLE_DOCUMENT
-## ***POST*** 
+##  Add One Sample Document
+### **HTTP Request: /DOCUMENT_TRAINER/ADD_ONE_SAMPLE_DOCUMENT** 
 
-**Summary:** Add One Sample Document
-
-### HTTP Request 
-`***POST*** /document_trainer/add_one_sample_document` 
+**Summary:** This API lets you upload one sample document to the document trainer to test features, etc.
 
 **Responses**
 
@@ -3409,13 +3404,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT_TRAINER/RETRAIN_MODEL
-## ***POST*** 
+## Retrain Model 
+### **HTTP Request: /DOCUMENT_TRAINER/RETRAIN_MODEL** 
 
-**Summary:** Retrain Model
-
-### HTTP Request 
-`***POST*** /document_trainer/retrain_model` 
+**Summary:** This API allows you to retrain a model.
 
 **Responses**
 
@@ -3423,13 +3415,10 @@ Returns:
 | ---- | ----------- |
 | 200 | Successful Response |
 
-# /DOCUMENT_TRAINER/RETRAIN_ALL_MODELS
-## ***POST*** 
+## Retrain All Models 
+### **HTTP Request: /DOCUMENT_TRAINER/RETRAIN_ALL_MODELS** 
 
-**Summary:** Retrain Model
-
-### HTTP Request 
-`***POST*** /document_trainer/retrain_all_models` 
+**Summary:** This API allows you to retrain all models at once.
 
 **Responses**
 
@@ -3437,13 +3426,10 @@ Returns:
 | ---- | ----------- |
 | 200 | Successful Response |
 
-# /DOCUMENT_TRAINER/TEST_CLASSIFICATION
-## ***POST*** 
+## Test Classification 
+### **HTTP Request: /DOCUMENT_TRAINER/TEST_CLASSIFICATION** 
 
-**Summary:** Test Classification
-
-### HTTP Request 
-`***POST*** /document_trainer/test_classification` 
+**Summary:** This API allows you to test if a document is correctly classified.
 
 **Responses**
 
@@ -3452,13 +3438,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT_TRAINER/GET_SAMPLE_DOCUMENTS
-## ***POST*** 
+## Retrieve Sample Documents 
+### **HTTP Request: /DOCUMENT_TRAINER/GET_SAMPLE_DOCUMENTS** 
 
-**Summary:** Get Sample Documents
-
-### HTTP Request 
-`***POST*** /document_trainer/get_sample_documents` 
+**Summary:** This API retrieves sample documents.
 
 **Responses**
 
@@ -3467,13 +3450,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT_TRAINER/DELETE_SAMPLE_DOCUMENT/{ID}
-## ***DELETE*** 
+## Delete Sample Document 
+### **HTTP Request: /DOCUMENT_TRAINER/DELETE_SAMPLE_DOCUMENT/{ID}** 
 
-**Summary:** Delete Document Field
-
-### HTTP Request 
-`***DELETE*** /document_trainer/delete_sample_document/{id}` 
+**Summary:** This API lets you delete a sample document.
 
 **Parameters**
 
@@ -3488,13 +3468,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT_TRAINER/CREATE_TRAINING_FILES
-## ***POST*** 
+## Create Training Files 
+### **HTTP Request: /DOCUMENT_TRAINER/CREATE_TRAINING_FILES** 
 
-**Summary:** Create Training Files
-
-### HTTP Request 
-`***POST*** /document_trainer/create_training_files` 
+**Summary:** This APIO lets you create new training files to train documents with.
 
 **Responses**
 
@@ -3503,13 +3480,10 @@ Returns:
 | 200 | Successful Response |
 | 422 | Validation Error |
 
-# /DOCUMENT_TRAINER/TEST_MODEL
-## ***POST*** 
+## Test Model 
+### **HTTP Request: /DOCUMENT_TRAINER/TEST_MODEL** 
 
-**Summary:** Test Model
-
-### HTTP Request 
-`***POST*** /document_trainer/test_model` 
+**Summary:** This API lets you test a model.
 
 **Responses**
 
